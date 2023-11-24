@@ -2,7 +2,7 @@
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/n-moschus/custom-filters
 ! Last modified: 
-! Version: 1.1
+! Version: 1.2
 
 ! General
 
