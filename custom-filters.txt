@@ -2,7 +2,7 @@
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/n-moschus/custom-filters
 ! Raw: https://raw.githubusercontent.com/n-moschus/custom-filters/main/custom-filters.txt
-! Version: 1.4
+! Version: 1.6
 
 ! General
 
@@ -41,26 +41,34 @@ chat.zalo.me##.tds-banner-download__content-wrapper
 ! https://voz.vn
 voz.vn##.notice-content
 
-! https://hhchina.tv
+! 2023-11-26 https://animehay.city
+animehay.city##.ah_footer
+animehay.city##.border-default.padding-10-20.bg-red
+animehay.city##.bg-lochinvar.noti-info
+animehay.city##.under_player.flex-ver-center.flex
+animehay.city##.bg-black.margin-10-0.fw-700.ah-frame-bg
+animehay.city##div.ah-frame-bg:nth-of-type(12)
+animehay.city##div.ah-frame-bg:nth-of-type(5)
+animehay.city##div.ah-frame-bg:nth-of-type(6)
+animehay.city##.flex-hozi-center.flex.color-white.noti-warning
+animehay.city##div.ah-frame-bg:nth-of-type(13)
+
+! 2023-11-26 https://hhchina.tv
+hhchina.tv##.flex-space-auto.flex.bg-black.margin-10-0
+hhchina.tv##.ah-frame-bg.desc
 hhchina.tv##.ah_footer
-hhchina.tv##div.ah-frame-bg:nth-of-type(13)
-hhchina.tv##div.ah_content:nth-of-type(4)
-hhchina.tv##.opacity
-hhchina.tv##div.ah-frame-bg:nth-of-type(6)
-hhchina.tv##div.ah-frame-bg:nth-of-type(10)
-hhchina.tv##.bg-black.margin-10-0.fw-700.ah-frame-bg
-hhchina.tv##div.ah_content > .ah-frame-bg
-hhchina.tv##.bg-red.flex-hozi-center.flex.button-default
-hhchina.tv##.list_episode.ah-frame-bg.desc > .heading
-hhchina.tv##center
-hhchina.tv##a.flex-hozi-center.flex.fs-15.fw-500.button-default.fs-35.padding-5-15:nth-of-type(2)
-hhchina.tv##a.flex-hozi-center.flex.fs-15.fw-500.button-default.fs-35.padding-5-15:nth-of-type(3)
-hhchina.tv##a.flex-hozi-center.flex.fs-15.fw-500.button-default.fs-35.padding-5-15:nth-of-type(4)
-hhchina.tv##div.flex-wrap.ah-frame-bg.flex:nth-of-type(3)
+hhchina.tv##.row > .flex
 hhchina.tv##.bind_movie.ah-frame-bg
-hhchina.tv##div.ah_content:nth-of-type(5)
-hhchina.tv##div.ah-frame-bg:nth-of-type(9)
+hhchina.tv##a.flex-hozi-center.flex.fs-15.fw-500.button-default.fs-35.padding-5-15:nth-of-type(4)
+hhchina.tv##a.flex-hozi-center.flex.fs-15.fw-500.button-default.fs-35.padding-5-15:nth-of-type(3)
+hhchina.tv##a.flex-hozi-center.flex.fs-15.fw-500.button-default.fs-35.padding-5-15:nth-of-type(2)
 hhchina.tv##div.ah-frame-bg:nth-of-type(5)
+hhchina.tv##.bg-black.margin-10-0.fw-700.ah-frame-bg
+hhchina.tv##div.ah_content:nth-of-type(5)
+hhchina.tv##div.ah-frame-bg:nth-of-type(1)
+hhchina.tv##div.ah-frame-bg:nth-of-type(7)
+hhchina.tv##div.ah-frame-bg:nth-of-type(9)
+hhchina.tv##div.ah-frame-bg:nth-of-type(13)
 
 ! https://pops.vn
 ||vnw-img-cdn.popsww.com/api/v2/containers/file2/cms_thumbnails/1376x195-501f8aff065a-1688959810482-VEIxwYbL.jpg?v=*$image
@@ -69,13 +77,6 @@ hhchina.tv##div.ah-frame-bg:nth-of-type(5)
 ||vnw-img-cdn.popsww.com/api/v2/containers/file2/cms_thumbnails/2376x160__9_-ef7f83839267-1693382918197-Zn8mXWQZ.jpg?v=*$image
 pops.vn##.false.page-description_root__JJfnn
 ||vnw-img-cdn.popsww.com/api/v2/containers/file2/cms_thumbnails/2376x160__9_-ef7f83839267-1693382918197-Zn8mXWQZ.jpg?v=*$image
-
-! https://phimchillg.net
-phimchillg.net###tabs-facebook > div
-phimchillg.net##h4
-phimchillg.net###player-video > .film-note.left-content-player
-phimchillg.net###player-video > div > .film-note.left-content-player
-phimchillg.net##.suggest-dns > p
 
 ! https://motphim.uk
 motphim.uk##body > center
@@ -89,3 +90,13 @@ motphim.uk##.play-tags
 motphim.uk##.sda-catfish.sda-wrapper
 motphim.uk##center:nth-of-type(2)
 
+! https://phimchillg.net
+phimchillg.net###tabs-facebook > div
+phimchillg.net##h4
+phimchillg.net###player-video > .film-note.left-content-player
+phimchillg.net###player-video > div > .film-note.left-content-player
+phimchillg.net##.suggest-dns > p
+
+! 2023-11-26 https://phimmoiyyy.net
+phimmoiyyy.net##.phimmmoi
+phimmoiyyy.net##div.sbox:nth-of-type(7)
