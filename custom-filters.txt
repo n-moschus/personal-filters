@@ -2,7 +2,7 @@
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/n-moschus/custom-filters
 ! Raw: https://raw.githubusercontent.com/n-moschus/custom-filters/main/custom-filters.txt
-! Version: 1.7
+! Version: 1.8
 
 ! General
 
@@ -94,4 +94,6 @@ phimchillg.net##.suggest-dns > p
 
 ! https://phimmoiyyy.net
 phimmoiyyy.net##.phimmmoi
+phimmoiyyy.net###comments
+phimmoiyyy.net##div.sbox:nth-of-type(6)
 phimmoiyyy.net##div.sbox:nth-of-type(7)
