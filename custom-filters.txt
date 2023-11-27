@@ -2,7 +2,7 @@
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/n-moschus/custom-filters
 ! Raw: https://raw.githubusercontent.com/n-moschus/custom-filters/main/custom-filters.txt
-! Version: 1.8
+! Version: 1.9
 
 ! General
 
@@ -36,6 +36,18 @@ chat.zalo.me##.tds-banner-download__content-wrapper
 ! https://voz.vn
 voz.vn##.notice-content
 
+! https://vn-z.vn
+vn-z.vn##.goog-te-gadget.skiptranslate
+
+! https://pops.vn
+||vnw-img-cdn.popsww.com/api/v2/containers/file2/cms_thumbnails/1376x195-501f8aff065a-1688959810482-VEIxwYbL.jpg?v=*$image
+||vnw-img-cdn.popsww.com/api/v2/containers/file2/cms_thumbnails/2376x160__11_-cd3f5cdd78d1-1693987438788-C7SAuBLD.jpg?v=*$image
+||vnw-img-cdn.popsww.com/api/v2/containers/file2/cms_thumbnails/2376x160__10_-f3e586d89d15-1693462750045-XHFrOcU4.jpg?v=*$image
+||vnw-img-cdn.popsww.com/api/v2/containers/file2/cms_thumbnails/2376x160__9_-ef7f83839267-1693382918197-Zn8mXWQZ.jpg?v=*$image
+pops.vn##.false.page-description_root__JJfnn
+||vnw-img-cdn.popsww.com/api/v2/containers/file2/cms_thumbnails/2376x160__9_-ef7f83839267-1693382918197-Zn8mXWQZ.jpg?v=*$image
+||vnw-img-cdn.popsww.com/api/v2/containers/file2/cms_thumbnails/1376_x_195-a4514df5bc26-1678333506398-xa8qDqKE.jpg?v=*$image
+
 ! https://animehay.city
 animehay.city##.ah_footer
 animehay.city##.border-default.padding-10-20.bg-red
@@ -64,14 +76,6 @@ hhchina.tv##div.ah-frame-bg:nth-of-type(1)
 hhchina.tv##div.ah-frame-bg:nth-of-type(7)
 hhchina.tv##div.ah-frame-bg:nth-of-type(9)
 hhchina.tv##div.ah-frame-bg:nth-of-type(13)
-
-! https://pops.vn
-||vnw-img-cdn.popsww.com/api/v2/containers/file2/cms_thumbnails/1376x195-501f8aff065a-1688959810482-VEIxwYbL.jpg?v=*$image
-||vnw-img-cdn.popsww.com/api/v2/containers/file2/cms_thumbnails/2376x160__11_-cd3f5cdd78d1-1693987438788-C7SAuBLD.jpg?v=*$image
-||vnw-img-cdn.popsww.com/api/v2/containers/file2/cms_thumbnails/2376x160__10_-f3e586d89d15-1693462750045-XHFrOcU4.jpg?v=*$image
-||vnw-img-cdn.popsww.com/api/v2/containers/file2/cms_thumbnails/2376x160__9_-ef7f83839267-1693382918197-Zn8mXWQZ.jpg?v=*$image
-pops.vn##.false.page-description_root__JJfnn
-||vnw-img-cdn.popsww.com/api/v2/containers/file2/cms_thumbnails/2376x160__9_-ef7f83839267-1693382918197-Zn8mXWQZ.jpg?v=*$image
 
 ! https://motphim.uk
 motphim.uk##body > center
