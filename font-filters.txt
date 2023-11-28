@@ -5,4 +5,4 @@
 ! Version: 1.1
 
 ! General
-facebook.com,twitter.com,youtube.com,google.com,fshare.vn,timfshare.com,wattpad.com,motphim.uk##*:not(.file-icon, .material-icons, .material-icons-round, .google-material-icons, .fa, .fas, .far, .fal, .fad, .fab, .uix_icon, .mdc-toolbar__icon--menu, .starstruck, .cancel-off-png, .cancel-on-png, .star-half-png, .star-off-png, .star-on-png, .widget-social, ul.social-links, li.dtl, i.dt-icon, header.responsive, a.aresp, [class^=icon-], [class*=" icon-"]):style(font-family: sans-serif !important)
+reddit.com,facebook.com,twitter.com,youtube.com,google.com,fshare.vn,timfshare.com,wattpad.com,motphim.uk##*:not(pre, code, .file-icon, .material-icons, .material-icons-round, .google-material-icons, .fa, .fas, .far, .fal, .fad, .fab, .uix_icon, .mdc-toolbar__icon--menu, .starstruck, .cancel-off-png, .cancel-on-png, .star-half-png, .star-off-png, .star-on-png, .widget-social, ul.social-links, li.dtl, i.dt-icon, header.responsive, a.aresp, [class^=icon-], [class*=" icon-"]):style(font-family: sans-serif !important)
