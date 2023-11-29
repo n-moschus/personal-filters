@@ -64,6 +64,7 @@ www.wattpad.com###component-trypremium-header-\%2f576989122-v\%25e1\%25bb\%258b-
 pops.vn##.false.page-description_root__JJfnn
 ||vnw-img-cdn.popsww.com/api/v2/containers/file2/cms_thumbnails/2376x160__9_-ef7f83839267-1693382918197-Zn8mXWQZ.jpg?v=*$image
 ||vnw-img-cdn.popsww.com/api/v2/containers/file2/cms_thumbnails/1376_x_195-a4514df5bc26-1678333506398-xa8qDqKE.jpg?v=*$image
+||vnw-img-cdn.popsww.com/api/v2/containers/file2/cms_thumbnails/1029x348-c0d7f5e37d63-1689840183177-I0DjNW1F.png?v=*$image
 
 ! AnimeHay
 animehay.city##.ah_footer
