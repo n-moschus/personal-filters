@@ -1,8 +1,11 @@
 ! Title: Font filters
-! Version: 0.2
+! Version: 0.3
 ! Expires: 1 day (update frequency)
 ! Description: Change the default font on some websites
 ! Homepage: https://github.com/n-moschus/personal-filters/blob/main/font-filters.txt
 
 ! General
-reddit.com,facebook.com,instagram.com,pinterest.com,twitter.com,youtube.com,google.com,fshare.vn,timfshare.com,wattpad.com,vn-z.vn,motphim.uk##*:not(pre, code, .file-icon, .material-icons, .material-icons-round, .material-icons-extended, .google-material-icons, .fa, .fas, .far, .fal, .fad, .fab, .uix_icon, .mdc-toolbar__icon--menu, .starstruck, .cancel-off-png, .cancel-on-png, .star-half-png, .star-off-png, .star-on-png, .widget-social, ul.social-links, li.dtl, i.dt-icon, header.responsive, a.aresp, [class^=icon-], [class*=" icon-"]):style(font-family: sans-serif !important)
+reddit.com,facebook.com,instagram.com,pinterest.com,twitter.com,youtube.com,google.com,fshare.vn,timfshare.com,wattpad.com,vn-z.vn,motphim.uk##*:not(pre, code, .file-icon, .material-icons, .material-icons-round, .material-icons-extended, .google-material-icons, .fa, .fas, .far, .fal, .fad, .fab, .uix_icon, .mdc-toolbar__icon--menu, .starstruck, .cancel-off-png, .cancel-on-png, .star-half-png, .star-off-png, .star-on-png, .widget-social, ul.social-links, li.dtl, i.dt-icon, header.responsive, a.aresp, [class^=icon-], [class*=" icon-"]):style(font-family: "SF Pro Display", sans-serif !important)
+
+! Genius
+genius.com##*:style(font-family: "SF Pro Display", sans-serif !important; font-weight: 400 !important)
