@@ -1,8 +1,8 @@
 ! Title: Personal filters
-! Expires: 1 day (update frequency)
-! Homepage: https://github.com/n-moschus/custom-filters
-! Raw: https://raw.githubusercontent.com/n-moschus/custom-filters/main/custom-filters.txt
+! About: Block some elements and advertise on some websites
 ! Version: 0.2
+! Expires: 1 day (update frequency)
+! Homepage: https://github.com/n-moschus/personal-filters/blob/main/personal-filters.txt
 
 ! General
 
