@@ -1,9 +1,8 @@
 ! Title: Font filters
 ! About: Change the default font on some websites
-! Expires: 1 day (update frequency)
-! Homepage: https://github.com/n-moschus/font-filters
-! Raw: https://raw.githubusercontent.com/n-moschus/custom-filters/main/font-filters.txt
 ! Version: 0.1
+! Expires: 1 day (update frequency)
+! Homepage: https://github.com/n-moschus/personal-filters/blob/main/font-filters.txt
 
 ! General
 reddit.com,facebook.com,twitter.com,youtube.com,google.com,fshare.vn,timfshare.com,wattpad.com,motphim.uk##*:not(pre, code, .file-icon, .material-icons, .material-icons-round, .material-icons-extended, .google-material-icons, .fa, .fas, .far, .fal, .fad, .fab, .uix_icon, .mdc-toolbar__icon--menu, .starstruck, .cancel-off-png, .cancel-on-png, .star-half-png, .star-off-png, .star-on-png, .widget-social, ul.social-links, li.dtl, i.dt-icon, header.responsive, a.aresp, [class^=icon-], [class*=" icon-"]):style(font-family: sans-serif !important)
