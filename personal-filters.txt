@@ -1,5 +1,5 @@
 ! Title: Personal filters
-! Version: 0.3
+! Version: 0.4
 ! Expires: 1 day (update frequency)
 ! Description: Block some elements and advertise on some websites
 ! Homepage: https://github.com/n-moschus/personal-filters/blob/main/personal-filters.txt
@@ -46,6 +46,7 @@ voz.vn##.notice-content
 
 ! VN-Z
 vn-z.vn##.goog-te-gadget.skiptranslate
+||upanh.vn-z.vn/images/2023/02/22/Vnzoomvs-Anyviewer300.jpg$image
 
 ! https://www.wattpad.com
 ||static.wattpad.com/image/2021_House-Ad_Premium_01_300x600px_V1.png$image
