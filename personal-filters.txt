@@ -4,7 +4,7 @@
 ! Description: Block some elements and advertise on some websites
 ! Homepage: https://github.com/n-moschus/personal-filters/blob/main/personal-filters.txt
 
-! FShare & TimShare
+! FShare & TimFShare
 ||storage.fshare.vn/images/Fcode01luottai_Download_300x600-min.jpg$image
 ||storage.fshare.vn/images/Banner_Branding1_T9.2023_trangtaivip_dacquyenVIP300x250.gif$image
 ||storage.fshare.vn/images/Banner_Branding1_T9.2023_dangnhap_dacquyenVIP300x250.gif$image
@@ -30,13 +30,13 @@ facebook.com##[aria-label*="Marketplace"] object > a[href^="/ads/"] > span:not(:
 
 ! YouTube
 www.youtube.com##.ytp-ce-element
+www.youtube.com###foreground-content
 www.youtube.com###middle-row > .ytd-watch-metadata.style-scope
 youtube.com##+js(set, yt.config_.openPopupConfig.supportedPopups.adBlockMessageViewModel, false)
 youtube.com##+js(set, Object.prototype.adBlocksFound, 0)
 youtube.com##+js(set, ytplayer.config.args.raw_player_response.adPlacements, [])
 youtube.com##+js(set, Object.prototype.hasAllowedInstreamAd, true)
 www.youtube.com###movie_player > .ytp-paid-content-overlay > .ytp-paid-content-overlay-link
-www.youtube.com###foreground-content
 
 ! Zalo Web
 chat.zalo.me##.tds-banner-download__content-wrapper
@@ -79,36 +79,36 @@ animehay.city##div.ah-frame-bg:nth-of-type(13)
 
 ! HHChina
 hhchina.tv##.flex-space-auto.flex.bg-black.margin-10-0
+hhchina.tv##.bg-black.margin-10-0.fw-700.ah-frame-bg
+hhchina.tv##.bind_movie.ah-frame-bg
 hhchina.tv##.ah-frame-bg.desc
 hhchina.tv##.ah_footer
 hhchina.tv##.row > .flex
-hhchina.tv##.bind_movie.ah-frame-bg
 hhchina.tv##a.flex-hozi-center.flex.fs-15.fw-500.button-default.fs-35.padding-5-15:nth-of-type(4)
 hhchina.tv##a.flex-hozi-center.flex.fs-15.fw-500.button-default.fs-35.padding-5-15:nth-of-type(3)
 hhchina.tv##a.flex-hozi-center.flex.fs-15.fw-500.button-default.fs-35.padding-5-15:nth-of-type(2)
-hhchina.tv##div.ah-frame-bg:nth-of-type(5)
-hhchina.tv##.bg-black.margin-10-0.fw-700.ah-frame-bg
-hhchina.tv##div.ah_content:nth-of-type(5)
 hhchina.tv##div.ah-frame-bg:nth-of-type(1)
+hhchina.tv##div.ah-frame-bg:nth-of-type(5)
 hhchina.tv##div.ah-frame-bg:nth-of-type(7)
 hhchina.tv##div.ah-frame-bg:nth-of-type(9)
 hhchina.tv##div.ah-frame-bg:nth-of-type(13)
+hhchina.tv##div.ah_content:nth-of-type(5)
 
 ! MotPhim
 motphim.uk##body > center
 motphim.uk###footer > .container
-||web.facebook.com/v7.0/plugins/comments.php?app_id=1407132939506107&channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df32387504c498ec%26domain%3Dmotphim.uk%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fmotphim.uk%252Ff27e26a48319e64%26relation%3Dparent.parent&color_scheme=light&container_width=980&height=100&href=https%3A%2F%2Fmotphim.uk%2Fphim-vat-chat-toi-cua-ngai-phan-3-6023%2F&locale=vi_VN&numposts=10&order_by=reverse_time&sdk=joey&version=v7.0&width=980$subdocument
-motphim.uk##.fb_iframe_widget_fluid_desktop.fb_iframe_widget.fb-comments
-motphim.uk##div.btn-groups:nth-of-type(6)
-motphim.uk##div.btn-groups:nth-of-type(4)
 motphim.uk##.btn-groups
 motphim.uk##.play-tags
 motphim.uk##.sda-catfish.sda-wrapper
+motphim.uk##div.btn-groups:nth-of-type(6)
+motphim.uk##div.btn-groups:nth-of-type(4)
 motphim.uk##center:nth-of-type(2)
+motphim.uk##.fb_iframe_widget_fluid_desktop.fb_iframe_widget.fb-comments
+||web.facebook.com/v7.0/plugins/comments.php?app_id=1407132939506107&channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df32387504c498ec%26domain%3Dmotphim.uk%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fmotphim.uk%252Ff27e26a48319e64%26relation%3Dparent.parent&color_scheme=light&container_width=980&height=100&href=https%3A%2F%2Fmotphim.uk%2Fphim-vat-chat-toi-cua-ngai-phan-3-6023%2F&locale=vi_VN&numposts=10&order_by=reverse_time&sdk=joey&version=v7.0&width=980$subdocument
 
 ! PhimChill
-phimchillg.net###tabs-facebook > div
 phimchillg.net##h4
+phimchillg.net###tabs-facebook > div
 phimchillg.net###player-video > .film-note.left-content-player
 phimchillg.net###player-video > div > .film-note.left-content-player
 phimchillg.net##.suggest-dns > p
