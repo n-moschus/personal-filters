@@ -10,6 +10,7 @@
 ||storage.fshare.vn/images/Banner_Branding1_T9.2023_dangnhap_dacquyenVIP300x250.gif$image
 ||storage.fshare.vn/images/Goldvip_T82023.gif$image
 ||storage.fshare.vn/images/CTKM_thang11_485x60.gif$image
+||www.fshare.vn/images/banner/112023/popup_file_manager_600x400.png
 www.fshare.vn##.quang-cao-top-manager-file
 www.fshare.vn##.mdc-toolbar__section--align-start.mdc-toolbar__section > .mdc-toolbar__icon--menu.material-icons.tree-menu-menu.tree-menu
 ||timfshare.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fimage_2023_11_09T04_29_21_077Z.e59b7dc9.png&w=*0&q=75$image
