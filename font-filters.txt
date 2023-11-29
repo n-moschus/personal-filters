@@ -34,3 +34,6 @@ vn-z.vn##*:not(.fa, .fas, .far, .fal, .fad, .fab, .alertToggler-icon, .shareButt
 
 ! Genius
 genius.com##*:style(font-family: "SF Pro Display", sans-serif !important; font-weight: 400 !important)
+
+! DocSachHay
+docsachhay.net###chapter-article .d-chapter-content p:style(font-family: "Vollkorn", serif !important)
