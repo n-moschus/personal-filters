@@ -1,8 +1,8 @@
-! Title: Custom Filters
+! Title: Personal filter
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/n-moschus/custom-filters
 ! Raw: https://raw.githubusercontent.com/n-moschus/custom-filters/main/custom-filters.txt
-! Version: 2.1
+! Version: 2.2
 
 ! General
 
