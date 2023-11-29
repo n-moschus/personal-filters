@@ -65,6 +65,23 @@ www.wattpad.com###component-trypremium-header-\%2f576989122-v\%25e1\%25bb\%258b-
 nettruyenx.com##video
 nettruyenx.com##.notify_block
 
+! HentaiVN
+hentaivn.tv##.main > p
+hentaivn.tv##.main > .qx_main
+hentaivn.tv##.container > p
+hentaivn.tv##div.bar-title-episode:nth-of-type(2)
+hentaivn.tv##.right_ps > p
+hentaivn.red##.main > p
+hentaivn.red##.main > .qx_main
+hentaivn.red##.container > p
+hentaivn.red##div.bar-title-episode:nth-of-type(2)
+hentaivn.red##.right_ps > p
+hentaivn.autos##.main > p
+hentaivn.autos##.main > .qx_main
+hentaivn.autos##.container > p
+hentaivn.autos##div.bar-title-episode:nth-of-type(2)
+hentaivn.autos##.right_ps > p
+
 ! POPS
 ||vnw-img-cdn.popsww.com/api/v2/containers/file2/cms_thumbnails/1376x195-501f8aff065a-1688959810482-VEIxwYbL.jpg?v=*$image
 ||vnw-img-cdn.popsww.com/api/v2/containers/file2/cms_thumbnails/2376x160__11_-cd3f5cdd78d1-1693987438788-C7SAuBLD.jpg?v=*$image
