@@ -6,10 +6,10 @@
 
 ! Form *##*:style(font-family: "SF Pro Display", sans-serif !important)
 ! Exclude font icons :not(.fa, .fas, .far, .fal, .fad, .fab, .material-icons, .google-material-icons, .material-icons-extended)
-! Exclude font code :not(pre, code, [class^=icon-], [class*=" icon-"])
+! Exclude font code :not(pre, code, .monospace, [class^=icon-], [class*=" icon-"])
 
 ! Google
-google.com,youtube.com##*:not(.google-material-icons, .material-icons-extended):style(font-family: "SF Pro Display", sans-serif !important)
+google.com,youtube.com##*:not(#fonts.google.com, .google-material-icons, .material-icons-extended):style(font-family: "SF Pro Display", sans-serif !important)
 
 ! Meta
 facebook.com,instagram.com,threads.net##*:style(font-family: "SF Pro Display", sans-serif !important)
