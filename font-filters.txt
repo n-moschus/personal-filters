@@ -23,6 +23,9 @@ twitter.com##*:style(font-family: "SF Pro Display", sans-serif !important)
 ! Reddit
 reddit.com##*:not(pre, code):style(font-family: "SF Pro Display", sans-serif !important)
 
+! Gitlab
+gitlab.com##.monospace, div.file-content.code pre code .line:style(font-family: "SF Mono", monospace !important)
+
 ! FShare & TimFShare
 fshare.vn,timfshare.com##*:not(.material-icons, .file-icon):style(font-family: "SF Pro Display", sans-serif !important)
 
