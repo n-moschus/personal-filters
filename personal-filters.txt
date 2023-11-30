@@ -41,6 +41,7 @@ www.youtube.com###movie_player > .ytp-paid-content-overlay > .ytp-paid-content-o
 
 ! Zalo Web
 chat.zalo.me##.tds-banner-download__content-wrapper
+chat.zalo.me##.snack-body
 
 ! VOZ
 voz.vn##.notice-content
