@@ -1,8 +1,13 @@
 ! Title: Personal filters
-! Version: 0.4
+! Version: 0.5
 ! Expires: 1 day (update frequency)
 ! Description: Block some elements and advertise on some websites
 ! Homepage: https://github.com/n-moschus/personal-filters/blob/main/personal-filters.txt
+
+! Microsoft Bing
+www.bing.com##.below_sbox
+www.bing.com###idCont .sw_mktsw *:style(color: #000000 !important)
+www.bing.com##.sbox.c_show_box .sb_form, .c_show_box.sbox_cn .sb_form:style(min-height: 1rem !important)
 
 ! FShare & TimFShare
 ||storage.fshare.vn/images/Fcode01luottai_Download_300x600-min.jpg$image
