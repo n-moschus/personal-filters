@@ -1,5 +1,5 @@
 ! Title: Font filters
-! Version: 0.4
+! Version: 0.5
 ! Expires: 1 day (update frequency)
 ! Description: Change the default font on some websites
 ! Homepage: https://github.com/n-moschus/personal-filters/blob/main/font-filters.txt
@@ -8,8 +8,11 @@
 ! Exclude font icons :not(.fa, .fas, .far, .fal, .fad, .fab, .material-icons, .google-material-icons, .material-icons-extended)
 ! Exclude font code :not(pre, code, .monospace, [class^=icon-], [class*=" icon-"])
 
-! Bing
+! Microsoft Bing
 bing.com##*:not(pre, code, .content span):style(font-family: "SF Pro Display", sans-serif !important)
+
+! Microsoft Start
+msn.com##*:style(font-family: "SF Pro Display", sans-serif !important)
 
 ! Google
 google.com##*:not(#fonts.google.com, .google-material-icons, .material-icons-extended):style(font-family: "SF Pro Display", sans-serif !important)
