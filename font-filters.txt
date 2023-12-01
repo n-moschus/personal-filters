@@ -9,7 +9,7 @@
 ! Exclude font code :not(pre, code, .monospace, [class^=icon-], [class*=" icon-"])
 
 ! Bing
-bing.com##*:style(font-family: "SF Pro Display", sans-serif !important)
+bing.com##*:not(pre, code, .content span):style(font-family: "SF Pro Display", sans-serif !important)
 
 ! Google
 google.com##*:not(#fonts.google.com, .google-material-icons, .material-icons-extended):style(font-family: "SF Pro Display", sans-serif !important)
