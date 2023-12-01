@@ -11,6 +11,9 @@
 ! Google
 google.com,youtube.com##*:not(#fonts.google.com, .google-material-icons, .material-icons-extended):style(font-family: "SF Pro Display", sans-serif !important)
 
+! TikTok
+tiktok.com##*:style(font-family: "SF Pro Display", sans-serif !important)
+
 ! Meta
 facebook.com,instagram.com,threads.net##*:style(font-family: "SF Pro Display", sans-serif !important)
 
