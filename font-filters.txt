@@ -41,20 +41,23 @@ reddit.com##*:not(pre, code):style(font-family: "SF Pro Display", sans-serif !im
 ! MediaFire
 mediafire.com##*:style(font-family: "SF Pro Display", sans-serif !important)
 
-! Gitlab
-gitlab.com##.monospace, .code.white .diff-line-num, .code.white .diff-line-num a, div.file-content.code pre code .line:style(font-family: "SF Mono", monospace !important)
-
 ! FShare & TimFShare
 fshare.vn,timfshare.com##*:not(.material-icons, .file-icon):style(font-family: "SF Pro Display", sans-serif !important)
-
-! Wattpad
-wattpad.com##*:not(.fa, .fas, .far, .fal, .fad, .fab):style(font-family: "SF Pro Display", sans-serif !important)
 
 ! VN-Z
 vn-z.vn##*:not(.fa, .fas, .far, .fal, .fad, .fab, .alertToggler-icon, .shareButtons-button>i, .shareButtons-button.shareButtons-button--brand>i):style(font-family: "SF Pro Display", sans-serif !important)
 
+! Gitlab
+gitlab.com##.monospace, .code.white .diff-line-num, .code.white .diff-line-num a, div.file-content.code pre code .line:style(font-family: "SF Mono", monospace !important)
+
 ! Genius
 genius.com##*:style(font-family: "SF Pro Display", sans-serif !important; font-weight: 400 !important)
 
+! Wattpad
+wattpad.com##*:not(.fa, .fas, .far, .fal, .fad, .fab):style(font-family: "SF Pro Display", sans-serif !important)
+
 ! DocSachHay
 docsachhay.net###chapter-article .d-chapter-content p:style(font-family: "Vollkorn", serif !important)
+
+! Nilesoft
+nilesoft.org##*:not(.i):style(font-family: "SF Pro Display", sans-serif !important)
