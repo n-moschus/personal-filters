@@ -18,7 +18,7 @@ bing.com##*:not(pre, code, .content span):style(font-family: "SF Pro Display", s
 msn.com##*:style(font-family: "SF Pro Display", sans-serif !important)
 
 ! Google
-google.com##*:not(#fonts.google.com, .google-material-icons, .material-icons-extended, .DPvwYc, .f0UV3d):style(font-family: "SF Pro Display", sans-serif !important)
+google.com##*:not(.google-material-icons, .material-icons-extended, .DPvwYc):style(font-family: "SF Pro Display", sans-serif !important)
 
 ! YouTube
 youtube.com,youtubekids.com##*:style(font-family: "SF Pro Display", sans-serif !important)
