@@ -47,6 +47,9 @@ fshare.vn,timfshare.com##*:not(.material-icons, .file-icon):style(font-family: "
 ! VN-Z
 vn-z.vn##*:not(.fa, .fas, .far, .fal, .fad, .fab, .alertToggler-icon, .shareButtons-button>i, .shareButtons-button.shareButtons-button--brand>i):style(font-family: "SF Pro Display", sans-serif !important)
 
+! VOZ
+voz.vn##code, kbd, pre, samp:style(font-family: "Mono", monospace !important)
+
 ! Gitlab
 gitlab.com##.monospace, .code.white .diff-line-num, .code.white .diff-line-num a, div.file-content.code pre code .line:style(font-family: "SF Mono", monospace !important)
 
