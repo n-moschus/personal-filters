@@ -61,3 +61,13 @@ docsachhay.net###chapter-article .d-chapter-content p:style(font-family: "Vollko
 
 ! Nilesoft
 nilesoft.org##*:not(.i):style(font-family: "SF Pro Display", sans-serif !important)
+
+! APK Flash
+apkflash.com##.files-header:style(font-family: "SF Mono", monospace !important)
+apkflash.com##code:style(font-family: "SF Pro Display", sans-serif !important; font-weight: bold !important)
+
+! APK Combo
+apkcombo.com##code:style(font-family: "SF Mono", monospace !important)
+
+! APK Mirror
+apkmirror.com##*:style(font-family: "SF Pro Display", sans-serif !important)
