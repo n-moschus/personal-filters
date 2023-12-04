@@ -56,6 +56,9 @@ vn-z.vn##.goog-te-gadget.skiptranslate
 vn-z.vn##.notice-content
 ||upanh.vn-z.vn/images/2023/02/22/Vnzoomvs-Anyviewer300.jpg$image
 
+! APK Pure
+apkpure.com##.chrome-install-pop
+
 ! Wattpad
 ||static.wattpad.com/image/2021_House-Ad_Premium_01_300x600px_V1.png$image
 ||static.wattpad.com/image/2021_House-Ad_Premium_02_300x600px_V1.png$image
