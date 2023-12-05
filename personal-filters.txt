@@ -20,6 +20,11 @@ www.fshare.vn##.quang-cao-top-manager-file
 www.fshare.vn##.mdc-toolbar__section--align-start.mdc-toolbar__section > .mdc-toolbar__icon--menu.material-icons.tree-menu-menu.tree-menu
 www.fshare.vn##.popup-vip-cus__back-drop
 www.fshare.vn##.popup-vip-cus__visibility.popup-vip-cus
+www.fshare.vn##.quang-cao-ben-phai
+www.fshare.vn##.quang-cao-ben-trai
+www.fshare.vn##.space-top-left-and-top-right
+www.fshare.vn###popup_first_pay_close_btn > .material-icons
+www.fshare.vn##.first-paid-popup-cus__close-btn
 ||timfshare.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fimage_2023_11_09T04_29_21_077Z.e59b7dc9.png&w=*0&q=75$image
 
 ! Facebook
