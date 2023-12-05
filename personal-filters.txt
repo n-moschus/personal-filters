@@ -1,5 +1,5 @@
 ! Title: Personal filters
-! Version: 0.6
+! Version: 0.7
 ! Expires: 1 day (update frequency)
 ! Description: Block some elements and advertise on some websites
 ! Homepage: https://github.com/n-moschus/personal-filters/blob/main/personal-filters.txt
@@ -27,9 +27,11 @@ www.fshare.vn###popup_first_pay_close_btn > .material-icons
 www.fshare.vn##.first-paid-popup-cus__close-btn
 ||timfshare.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fimage_2023_11_09T04_29_21_077Z.e59b7dc9.png&w=*0&q=75$image
 
-! Facebook
+! Facebook: People You May Know on Profile
 www.facebook.com##.x1xmf6yo.xev17xk.xy80clv.xso031l.xm81vs4.x178xt8z.x26u7qi.x1q0q8m5.xu3j5b3.x13fuv20.x9jhf4c.x30kzoy.xgqcy7u.x1lq5wgf.xu1343h.x1nb4dca.x1y71gwh.x1exxf4d
 www.facebook.com##div.xusnbm3.x1w6jkce.x1xmf6yo.xw3qccf.xsgj6o6 > .xh8yej3.x1n2onr6.xl56j7k.xdt5ytf.x3nfvp2.x9f619.x1a2a7pz.x1lku1pv.x87ps6o.x13rtm0m.x1e5q0jg.x3x9cwd.x1o1ewxj.xggy1nq.x1hl2dhg.x16tdsg8.xkhd6sd.x18d9i69.x4uap5.xexx8yu.x1mh8g0r.xat24cr.x11i5rnm.xdj266r.xe8uvvx.x1ypdohk.xav7gou.xaqea5y.x1b1mbwd.x6umtig.xjbqb8w.x1i10hfl > .x1swvt13.x1pi30zi.x1r1pt67.x1qhmfi1.x9f619.xm0m39n.x1qhh985.xcfux6l.x972fbf.x1403ito.x585lrc.x17zwfj4.xi112ho.x1q0g3np.xozqiw3.x6s0dn4.xl56j7k.x2lah0s.x78zum5.x1ja2u2z.x1n2onr6
+
+! Facebook English
 ! Suggested for you
 www.facebook.com##[aria-posinset] div:not(:only-child)>div:only-child>div:only-child>div:first-child[class=""]>div:not([data-0]):has-text(/^Suggested/):upward([aria-posinset])
 ! Unlabelled Suggested posts (with a Follow button)
@@ -44,6 +46,24 @@ www.facebook.com##[aria-posinset] [aria-label="See more groups"][href="/groups/d
 www.facebook.com##:is([aria-posinset],[aria-describedby]:not([aria-posinset])) [aria-label="Suggested pages"]:upward([aria-posinset],[aria-describedby]:not([aria-posinset]))
 ! Reels and short videos
 www.facebook.com##[aria-posinset] [aria-label="See more"][href="/reel/?s=ifu_see_more"]:upward([aria-posinset])
+! Marketplace
+facebook.com##[aria-label*="Marketplace"] object > a[href^="/ads/"] > span:not(:empty):upward(11)
+
+! Facebook Tiếng Việt
+! Gợi ý cho bạn
+www.facebook.com##[aria-posinset] div:not(:only-child)>div:only-child>div:only-child>div:first-child[class=""]>div:not([data-0]):has-text(/^Gợi ý/):upward([aria-posinset])
+! Bài đăng được đề xuất không được gắn nhãn (có nút Theo dõi)
+www.facebook.com##:is([aria-posinset],[aria-describedby]:not([aria-posinset])) :is(h3,h4) [role=button]:has-text(Theo dõi):upward([aria-posinset],[aria-describedby]:not([aria-posinset]))
+! Chỉ sử dụng nếu bạn thực sự có những thứ sau: Các bài đăng được đề xuất có nhãn bên cạnh ngày đăng
+www.facebook.com##:is([aria-posinset],[aria-describedby]:not([aria-posinset])):has-text(Gợi ý cho bạn)
+! Những người có thể bạn biết
+www.facebook.com##[aria-posinset] [aria-label="Xem tất cả"][href="/friends/"]:upward([aria-posinset])
+! Nhóm được gợi ý
+! www.facebook.com##[aria-posinset] [aria-label="Xem thêm nhóm"][href="/groups/discover/"]:upward([aria-posinset])
+! Trang được gợi ý
+www.facebook.com##:is([aria-posinset],[aria-describedby]:not([aria-posinset])) [aria-label="Trang được gợi ý"]:upward([aria-posinset],[aria-describedby]:not([aria-posinset]))
+! Reels và video ngắn
+www.facebook.com##[aria-posinset] [aria-label="Xem thêm"][href="/reel/?s=ifu_see_more"]:upward([aria-posinset])
 ! Marketplace
 facebook.com##[aria-label*="Marketplace"] object > a[href^="/ads/"] > span:not(:empty):upward(11)
 
