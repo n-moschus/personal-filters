@@ -44,6 +44,9 @@ youtube.com##+js(set, ytplayer.config.args.raw_player_response.adPlacements, [])
 youtube.com##+js(set, Object.prototype.hasAllowedInstreamAd, true)
 www.youtube.com###movie_player > .ytp-paid-content-overlay > .ytp-paid-content-overlay-link
 
+! YouTube Music
+music.youtube.com##tp-yt-paper-dialog.ytmusic-popup-container.style-scope > .ytmusic-popup-container.style-scope
+
 ! Zalo Web
 chat.zalo.me##.tds-banner-download__content-wrapper
 chat.zalo.me##.snack-body
