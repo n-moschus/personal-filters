@@ -74,3 +74,6 @@ apkcombo.com##code:style(font-family: "SF Mono", monospace !important)
 
 ! APK Mirror
 apkmirror.com##*:style(font-family: "SF Pro Display", sans-serif !important)
+
+! Icecream Apps
+icecreamapps.com##*:style(font-family: "SF Pro Display", sans-serif !important)
