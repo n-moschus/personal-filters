@@ -1,5 +1,5 @@
 ! Title: Personal filters
-! Version: 0.5
+! Version: 0.6
 ! Expires: 1 day (update frequency)
 ! Description: Block some elements and advertise on some websites
 ! Homepage: https://github.com/n-moschus/personal-filters/blob/main/personal-filters.txt
@@ -55,6 +55,9 @@ voz.vn##.notice-content
 vn-z.vn##.goog-te-gadget.skiptranslate
 vn-z.vn##.notice-content
 ||upanh.vn-z.vn/images/2023/02/22/Vnzoomvs-Anyviewer300.jpg$image
+
+! Icecream PDF Candy
+pdfcandy.com##.popup__extension.popupcandy
 
 ! APK Pure
 apkpure.com##.chrome-install-pop
