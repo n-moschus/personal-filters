@@ -34,16 +34,6 @@ www.facebook.com##[aria-posinset] [aria-label="See more"][href="/reel/?s=ifu_see
 ! Marketplace
 facebook.com##[aria-label*="Marketplace"] object > a[href^="/ads/"] > span:not(:empty):upward(11)
 
-! YouTube
-www.youtube.com##.ytp-ce-element
-www.youtube.com###foreground-content
-www.youtube.com###middle-row > .ytd-watch-metadata.style-scope
-youtube.com##+js(set, yt.config_.openPopupConfig.supportedPopups.adBlockMessageViewModel, false)
-youtube.com##+js(set, Object.prototype.adBlocksFound, 0)
-youtube.com##+js(set, ytplayer.config.args.raw_player_response.adPlacements, [])
-youtube.com##+js(set, Object.prototype.hasAllowedInstreamAd, true)
-www.youtube.com###movie_player > .ytp-paid-content-overlay > .ytp-paid-content-overlay-link
-
 ! YouTube Music
 music.youtube.com##tp-yt-paper-dialog.ytmusic-popup-container.style-scope > .ytmusic-popup-container.style-scope
 
