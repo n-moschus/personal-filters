@@ -1,5 +1,5 @@
 ! Title: Personal filters
-! Version: 0.7
+! Version: 0.8
 ! Expires: 1 day (update frequency)
 ! Description: Block some elements and advertise on some websites
 ! Homepage: https://github.com/n-moschus/personal-filters/blob/main/personal-filters.txt
@@ -26,8 +26,6 @@ www.fshare.vn##.space-top-left-and-top-right
 www.fshare.vn###popup_first_pay_close_btn > .material-icons
 www.fshare.vn##.first-paid-popup-cus__close-btn
 ||timfshare.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fimage_2023_11_09T04_29_21_077Z.e59b7dc9.png&w=*0&q=75$image
-
-
 
 ! Facebook English
 ! Suggested for you
