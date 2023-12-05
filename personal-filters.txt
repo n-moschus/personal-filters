@@ -59,9 +59,9 @@ www.facebook.com##:is([aria-posinset],[aria-describedby]:not([aria-posinset])):h
 ! Những người có thể bạn biết
 www.facebook.com##[aria-posinset] [aria-label="Xem tất cả"][href="/friends/"]:upward([aria-posinset])
 ! Nhóm được gợi ý
-! www.facebook.com##[aria-posinset] [aria-label="Xem thêm nhóm"][href="/groups/discover/"]:upward([aria-posinset])
+www.facebook.com##[aria-posinset] [aria-label="Xem thêm nhóm"][href="/groups/discover/"]:upward([aria-posinset])
 ! Trang được gợi ý
-www.facebook.com##:is([aria-posinset],[aria-describedby]:not([aria-posinset])) [aria-label="Trang được gợi ý"]:upward([aria-posinset],[aria-describedby]:not([aria-posinset]))
+! www.facebook.com##:is([aria-posinset],[aria-describedby]:not([aria-posinset])) [aria-label="Trang được gợi ý"]:upward([aria-posinset],[aria-describedby]:not([aria-posinset]))
 ! Reels và video ngắn
 www.facebook.com##[aria-posinset] [aria-label="Xem thêm"][href="/reel/?s=ifu_see_more"]:upward([aria-posinset])
 ! Marketplace
