@@ -34,6 +34,8 @@ www.facebook.com##div.xusnbm3.x1w6jkce.x1xmf6yo.xw3qccf.xsgj6o6 > .xh8yej3.x1n2o
 www.facebook.com##[aria-posinset] div:not(:only-child)>div:only-child>div:only-child>div:first-child[class=""]>div:not([data-0]):has-text(/^Suggested/):upward([aria-posinset])
 ! Unlabelled Suggested posts (with a Follow button)
 www.facebook.com##:is([aria-posinset],[aria-describedby]:not([aria-posinset])) :is(h3,h4) [role=button]:has-text(Follow):upward([aria-posinset],[aria-describedby]:not([aria-posinset]))
+! Use only if you actually have these: Suggested posts with the label next to the post date
+www.facebook.com##:is([aria-posinset],[aria-describedby]:not([aria-posinset])):has-text(Suggested for you)
 ! People You May Know
 www.facebook.com##[aria-posinset] [aria-label="See all"][href="/friends/"]:upward([aria-posinset])
 ! Suggested groups
