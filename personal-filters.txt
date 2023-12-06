@@ -70,6 +70,10 @@ facebook.com##[aria-label*="Marketplace"] object > a[href^="/ads/"] > span:not(:
 ! YouTube Music
 music.youtube.com##tp-yt-paper-dialog.ytmusic-popup-container.style-scope > .ytmusic-popup-container.style-scope
 
+! Spotify
+open.spotify.com##.GenericModal--afterOpen.GenericModal--animated.encore-dark-theme.GenericModal > div > iframe
+open.spotify.com##.GenericModal__overlay--afterOpen.GenericModal__overlay--animated.GenericModal__overlay
+
 ! Zalo Web
 chat.zalo.me##.tds-banner-download__content-wrapper
 chat.zalo.me##.snack-body
