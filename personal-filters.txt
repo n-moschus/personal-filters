@@ -73,7 +73,7 @@ bard.google.com##.desktop.experiment.regular.banner
 ! YouTube: Hide Short shelf
 www.youtube.com###content > .ytd-rich-section-renderer.style-scope
 ! YouTube: Hide suggest video <1000 views (only English)
-www.youtube.com##div#metadata-line > span.ytd-video-meta-block:nth-of-type(1):not(:has-text(/K|M/)):upward(ytd-rich-item-renderer)
+! www.youtube.com##div#metadata-line > span.ytd-video-meta-block:nth-of-type(1):not(:has-text(/K|M/)):upward(ytd-rich-item-renderer)
 
 ! YouTube Music: Hide Pop-up
 music.youtube.com##tp-yt-paper-dialog.ytmusic-popup-container.style-scope > .ytmusic-popup-container.style-scope
