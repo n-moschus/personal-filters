@@ -9,6 +9,9 @@ www.bing.com##.below_sbox
 www.bing.com###idCont .sw_mktsw *:style(color: #000000 !important)
 www.bing.com##.sbox.c_show_box .sb_form, .c_show_box.sbox_cn .sb_form:style(min-height: 1rem !important)
 
+! Google Bard
+bard.google.com##.desktop.experiment.regular.banner
+
 ! FShare & TimFShare
 ||storage.fshare.vn/images/Fcode01luottai_Download_300x600-min.jpg$image
 ||storage.fshare.vn/images/Banner_Branding1_T9.2023_trangtaivip_dacquyenVIP300x250.gif$image
