@@ -1,5 +1,5 @@
 ! Title: Personal filters
-! Version: 0.9
+! Version: 0.9.1
 ! Description: Block some elements and advertise on some websites
 ! Homepage: https://github.com/n-moschus/personal-filters/blob/main/personal-filters.txt
 
@@ -69,8 +69,10 @@ facebook.com##[aria-label*="Marketplace"] object > a[href^="/ads/"] > span:not(:
 ! Google Bard: Hide Banner
 bard.google.com##.desktop.experiment.regular.banner
 
-! YouTube: Hide Short shelf
+! YouTube: Hide Short shelf in Home
 www.youtube.com###content > .ytd-rich-section-renderer.style-scope
+! YouTube: Hide Short shelf in List
+www.youtube.com##ytd-reel-shelf-renderer.ytd-item-section-renderer.style-scope
 ! YouTube: Hide suggest video <1000 views (only English)
 ! www.youtube.com##div#metadata-line > span.ytd-video-meta-block:nth-of-type(1):not(:has-text(/K|M/)):upward(ytd-rich-item-renderer)
 
