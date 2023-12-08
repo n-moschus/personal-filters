@@ -1,5 +1,5 @@
 ! Title: Personal filters
-! Version: 0.9.1
+! Version: 0.9.2
 ! Description: Block some elements and advertise on some websites
 ! Homepage: https://github.com/n-moschus/personal-filters/blob/main/personal-filters.txt
 
@@ -202,3 +202,7 @@ phimmoiyyy.net##.phimmmoi
 phimmoiyyy.net###comments
 phimmoiyyy.net##div.sbox:nth-of-type(6)
 phimmoiyyy.net##div.sbox:nth-of-type(7)
+
+! XoSoDaiPhat
+xosodaiphat.com##svg, .bx_close_btn_red_serverImg.bx_close_btn
+||img.alygmeame.xyz
