@@ -175,6 +175,7 @@ motphim.uk##div.btn-groups
 motphim.uk##div.btn-groups > .play-tags
 motphim.uk##.tags
 motphim.uk##.tab > .play-tags
+motphim.uk##.detail > .play-tags
 motphim.uk##center
 motphim.uk##body > center
 motphim.uk##.sda-catfish.sda-wrapper
