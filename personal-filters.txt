@@ -142,6 +142,7 @@ pops.vn##div.slider_popsSlider__pD5U2:nth-of-type(8)
 pops.vn##div.slider_popsSlider__pD5U2:nth-of-type(11)
 pops.vn##div.slider_popsSlider__pD5U2:nth-of-type(12)
 pops.vn##div.slider_popsSlider__pD5U2:nth-of-type(18)
+pops.vn##.wrapper-videojs_video__age-rating-warning__p_6ag
 
 ! AnimeHay
 animehay.city##.ah_footer
