@@ -1,5 +1,5 @@
 ! Title: Personal filters
-! Version: 0.9.2
+! Version: 0.9.3
 ! Description: Block some elements and advertise on some websites
 ! Homepage: https://github.com/n-moschus/personal-filters/blob/main/personal-filters.txt
 
@@ -8,27 +8,27 @@ www.bing.com##.below_sbox
 www.bing.com###idCont .sw_mktsw *:style(color: #000000 !important)
 www.bing.com##.sbox.c_show_box .sb_form, .c_show_box.sbox_cn .sb_form:style(min-height: 1rem !important)
 
-! FShare & TimFShare
+! FShare
 ||storage.fshare.vn/images/Fcode01luottai_Download_300x600-min.jpg$image
 ||storage.fshare.vn/images/Banner_Branding1_T9.2023_trangtaivip_dacquyenVIP300x250.gif$image
 ||storage.fshare.vn/images/Banner_Branding1_T9.2023_dangnhap_dacquyenVIP300x250.gif$image
 ||storage.fshare.vn/images/Goldvip_T82023.gif$image
 ||storage.fshare.vn/images/CTKM_thang11_485x60.gif$image
 ||www.fshare.vn/images/banner/112023/popup_file_manager_600x400.png
-www.fshare.vn##.quang-cao-top-manager-file
 www.fshare.vn##.mdc-toolbar__section--align-start.mdc-toolbar__section > .mdc-toolbar__icon--menu.material-icons.tree-menu-menu.tree-menu
-www.fshare.vn##.popup-vip-cus__back-drop
-www.fshare.vn##.popup-vip-cus__visibility.popup-vip-cus
+www.fshare.vn##.popup-vip-cus__back-drop, .popup-vip-cus__visibility.popup-vip-cus
+www.fshare.vn###popup_first_pay_close_btn > .material-icons, .first-paid-popup-cus__close-btn
+www.fshare.vn##.quang-cao-top-manager-file
 www.fshare.vn##.quang-cao-ben-phai
 www.fshare.vn##.quang-cao-ben-trai
 www.fshare.vn##.space-top-left-and-top-right
-www.fshare.vn###popup_first_pay_close_btn > .material-icons
 www.fshare.vn##.first-paid-popup-cus__close-btn
+
+! TimFShare
 ||timfshare.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fimage_2023_11_09T04_29_21_077Z.e59b7dc9.png&w=*0&q=75$image
 
 ! Facebook: People You May Know on Profile
-www.facebook.com##.x1xmf6yo.xev17xk.xy80clv.xso031l.xm81vs4.x178xt8z.x26u7qi.x1q0q8m5.xu3j5b3.x13fuv20.x9jhf4c.x30kzoy.xgqcy7u.x1lq5wgf.xu1343h.x1nb4dca.x1y71gwh.x1exxf4d
-www.facebook.com##div.xusnbm3.x1w6jkce.x1xmf6yo.xw3qccf.xsgj6o6 > .xh8yej3.x1n2onr6.xl56j7k.xdt5ytf.x3nfvp2.x9f619.x1a2a7pz.x1lku1pv.x87ps6o.x13rtm0m.x1e5q0jg.x3x9cwd.x1o1ewxj.xggy1nq.x1hl2dhg.x16tdsg8.xkhd6sd.x18d9i69.x4uap5.xexx8yu.x1mh8g0r.xat24cr.x11i5rnm.xdj266r.xe8uvvx.x1ypdohk.xav7gou.xaqea5y.x1b1mbwd.x6umtig.xjbqb8w.x1i10hfl > .x1swvt13.x1pi30zi.x1r1pt67.x1qhmfi1.x9f619.xm0m39n.x1qhh985.xcfux6l.x972fbf.x1403ito.x585lrc.x17zwfj4.xi112ho.x1q0g3np.xozqiw3.x6s0dn4.xl56j7k.x2lah0s.x78zum5.x1ja2u2z.x1n2onr6
+www.facebook.com##.x1xmf6yo.xev17xk.xy80clv.xso031l.xm81vs4.x178xt8z.x26u7qi.x1q0q8m5.xu3j5b3.x13fuv20.x9jhf4c.x30kzoy.xgqcy7u.x1lq5wgf.xu1343h.x1nb4dca.x1y71gwh.x1exxf4d, div.xusnbm3.x1w6jkce.x1xmf6yo.xw3qccf.xsgj6o6 > .xh8yej3.x1n2onr6.xl56j7k.xdt5ytf.x3nfvp2.x9f619.x1a2a7pz.x1lku1pv.x87ps6o.x13rtm0m.x1e5q0jg.x3x9cwd.x1o1ewxj.xggy1nq.x1hl2dhg.x16tdsg8.xkhd6sd.x18d9i69.x4uap5.xexx8yu.x1mh8g0r.xat24cr.x11i5rnm.xdj266r.xe8uvvx.x1ypdohk.xav7gou.xaqea5y.x1b1mbwd.x6umtig.xjbqb8w.x1i10hfl > .x1swvt13.x1pi30zi.x1r1pt67.x1qhmfi1.x9f619.xm0m39n.x1qhh985.xcfux6l.x972fbf.x1403ito.x585lrc.x17zwfj4.xi112ho.x1q0g3np.xozqiw3.x6s0dn4.xl56j7k.x2lah0s.x78zum5.x1ja2u2z.x1n2onr6
 
 ! Facebook English
 ! Suggested for you
@@ -69,10 +69,8 @@ facebook.com##[aria-label*="Marketplace"] object > a[href^="/ads/"] > span:not(:
 ! Google Bard: Hide Banner
 bard.google.com##.desktop.experiment.regular.banner
 
-! YouTube: Hide Short shelf in Home
-www.youtube.com###content > .ytd-rich-section-renderer.style-scope
-! YouTube: Hide Short shelf in List
-www.youtube.com##ytd-reel-shelf-renderer.ytd-item-section-renderer.style-scope
+! YouTube: Hide Short
+www.youtube.com###content > .ytd-rich-section-renderer.style-scope, ytd-reel-shelf-renderer.ytd-item-section-renderer.style-scope
 ! YouTube: Hide suggest video <1000 views (only English)
 ! www.youtube.com##div#metadata-line > span.ytd-video-meta-block:nth-of-type(1):not(:has-text(/K|M/)):upward(ytd-rich-item-renderer)
 
@@ -80,8 +78,7 @@ www.youtube.com##ytd-reel-shelf-renderer.ytd-item-section-renderer.style-scope
 music.youtube.com##tp-yt-paper-dialog.ytmusic-popup-container.style-scope > .ytmusic-popup-container.style-scope
 
 ! Spotify
-open.spotify.com##.GenericModal--afterOpen.GenericModal--animated.encore-dark-theme.GenericModal > div > iframe
-open.spotify.com##.GenericModal__overlay--afterOpen.GenericModal__overlay--animated.GenericModal__overlay
+open.spotify.com##.GenericModal--afterOpen.GenericModal--animated.encore-dark-theme.GenericModal > div > iframe, .GenericModal__overlay--afterOpen.GenericModal__overlay--animated.GenericModal__overlay
 
 ! Zalo Web
 chat.zalo.me##.tds-banner-download__content-wrapper
@@ -102,25 +99,20 @@ pdfcandy.com##.popup__extension.popupcandy
 apkpure.com##.chrome-install-pop
 
 ! Wattpad
-||static.wattpad.com/image/2021_House-Ad_Premium_01_300x600px_V1.png$image
-||static.wattpad.com/image/2021_House-Ad_Premium_02_300x600px_V1.png$image
-||static.wattpad.com/image/2021_House-Ad_Premium_03_300x600px_V1.png$image
-||static.wattpad.com/image/2021_House-Ad_Premium_01_300x250px_V1.png$image
-||static.wattpad.com/image/2021_House-Ad_Premium_02_300x250px_V1.png$image
-||static.wattpad.com/image/2021_House-Ad_Premium_03_300x250px_V1.png$image
-||static.wattpad.com/image/2021_House-Ad_Premium_01_728x90px_V1.png$image
-||static.wattpad.com/image/2021_House-Ad_Premium_02_728x90px_V1.png$image
-||static.wattpad.com/image/2021_House-Ad_Premium_03_728x90px_V1.png$image
-www.wattpad.com###component-trypremium-header-\%2f576989122-v\%25e1\%25bb\%258b-lai-chi-b\%25c3\%25a1ch-nh\%25e1\%25ba\%25adp-h\%25c3\%25a0o-m\%25c3\%25b4n-001
+||static.wattpad.com/image/
+www.wattpad.com##.btn-primary.on-premium.try-premium
 
 ! DocSachHay
 docsachhay.net##.fs-17.pb-4.pt-3.text-center.alert-warning
 docsachhay.net##.fs-17.box-notice.text-center
 ||docsach24.co/images/server-1/1612271069509.jpg$image
+docsachhay.net##.fb_iframe_widget_fluid_desktop.fb_iframe_widget.clearfix.mt-3.mt-lg-1.fb-comments
+||www.facebook.com/v14.0/plugins/comments.php?
 
 ! NetTruyen
 nettruyenx.com##video
 nettruyenx.com##.notify_block
+||www.facebook.com/v2.7/plugins/page.php?
 
 ! HentaiVN
 hentaivn.tv##.main > p
@@ -179,29 +171,25 @@ hhchina.tv##div.ah-frame-bg:nth-of-type(13)
 hhchina.tv##div.ah_content:nth-of-type(5)
 
 ! MotPhim
+motphim.uk##div.btn-groups
+motphim.uk##div.btn-groups > .play-tags
+motphim.uk##.tags
+motphim.uk##.tab > .play-tags
+motphim.uk##center
 motphim.uk##body > center
-motphim.uk###footer > .container
-motphim.uk##.btn-groups
-motphim.uk##.play-tags
 motphim.uk##.sda-catfish.sda-wrapper
-motphim.uk##div.btn-groups:nth-of-type(6)
-motphim.uk##div.btn-groups:nth-of-type(4)
-motphim.uk##center:nth-of-type(2)
+motphim.uk###footer
 motphim.uk##.fb_iframe_widget_fluid_desktop.fb_iframe_widget.fb-comments
-||web.facebook.com/v7.0/plugins/comments.php?app_id=1407132939506107&channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df32387504c498ec%26domain%3Dmotphim.uk%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fmotphim.uk%252Ff27e26a48319e64%26relation%3Dparent.parent&color_scheme=light&container_width=980&height=100&href=https%3A%2F%2Fmotphim.uk%2Fphim-vat-chat-toi-cua-ngai-phan-3-6023%2F&locale=vi_VN&numposts=10&order_by=reverse_time&sdk=joey&version=v7.0&width=980$subdocument
-
-! PhimChill
-phimchillg.net##h4
-phimchillg.net###tabs-facebook > div
-phimchillg.net###player-video > .film-note.left-content-player
-phimchillg.net###player-video > div > .film-note.left-content-player
-phimchillg.net##.suggest-dns > p
+||www.facebook.com/v7.0/plugins/comments.php?
 
 ! PhimMoi
 phimmoiyyy.net##.phimmmoi
 phimmoiyyy.net###comments
 phimmoiyyy.net##div.sbox:nth-of-type(6)
 phimmoiyyy.net##div.sbox:nth-of-type(7)
+
+! 4horlover
+4horlover.com##.mtsnb-container-outer, .mtsnb-fixed.mtsnb-top.mtsnb-shown.mtsnb
 
 ! XoSoDaiPhat
 xosodaiphat.com##svg, .bx_close_btn_red_serverImg.bx_close_btn
