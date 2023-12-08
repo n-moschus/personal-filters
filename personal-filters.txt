@@ -1,5 +1,5 @@
 ! Title: Personal filters
-! Version: 0.9.5
+! Version: 0.9.6
 ! Description: Block some elements and advertise on some websites
 ! Homepage: https://github.com/n-moschus/personal-filters/blob/main/personal-filters.txt
 
@@ -188,7 +188,7 @@ motphim.uk##body > center
 motphim.uk##.sda-catfish.sda-wrapper
 motphim.uk###footer
 motphim.uk##.fb_iframe_widget_fluid_desktop.fb_iframe_widget.fb-comments
-||www.facebook.com/v7.0/plugins/comments.php
+||www.facebook.com/v7.0/plugins/comments.php?
 
 ! PhimMoi
 phimmoiyyy.net##.phimmmoi
