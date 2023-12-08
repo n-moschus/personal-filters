@@ -1,5 +1,5 @@
 ! Title: Personal filters
-! Version: 0.9.4
+! Version: 0.9.5
 ! Description: Block some elements and advertise on some websites
 ! Homepage: https://github.com/n-moschus/personal-filters/blob/main/personal-filters.txt
 
@@ -132,14 +132,15 @@ hentaivn.autos##div.bar-title-episode:nth-of-type(2)
 hentaivn.autos##.right_ps > p
 
 ! POPS
-||vnw-img-cdn.popsww.com/api/v2/containers/file2/cms_thumbnails/1376x195-501f8aff065a-1688959810482-VEIxwYbL.jpg?v=*$image
+pops.vn##.false.page-description_root__JJfnn
 ||vnw-img-cdn.popsww.com/api/v2/containers/file2/cms_thumbnails/2376x160__11_-cd3f5cdd78d1-1693987438788-C7SAuBLD.jpg?v=*$image
 ||vnw-img-cdn.popsww.com/api/v2/containers/file2/cms_thumbnails/2376x160__10_-f3e586d89d15-1693462750045-XHFrOcU4.jpg?v=*$image
 ||vnw-img-cdn.popsww.com/api/v2/containers/file2/cms_thumbnails/2376x160__9_-ef7f83839267-1693382918197-Zn8mXWQZ.jpg?v=*$image
-pops.vn##.false.page-description_root__JJfnn
 ||vnw-img-cdn.popsww.com/api/v2/containers/file2/cms_thumbnails/2376x160__9_-ef7f83839267-1693382918197-Zn8mXWQZ.jpg?v=*$image
+||vnw-img-cdn.popsww.com/api/v2/containers/file2/cms_thumbnails/1376x195-501f8aff065a-1688959810482-VEIxwYbL.jpg?v=*$image
 ||vnw-img-cdn.popsww.com/api/v2/containers/file2/cms_thumbnails/1376_x_195-a4514df5bc26-1678333506398-xa8qDqKE.jpg?v=*$image
 ||vnw-img-cdn.popsww.com/api/v2/containers/file2/cms_thumbnails/1029x348-c0d7f5e37d63-1689840183177-I0DjNW1F.png?v=*$image
+||vnw-img-cdn.popsww.com/api/v2/containers/file2/cms_thumbnails/web1-0e7e13516f78-1701678841562-haO2IEqL.png?v=*$image
 
 ! AnimeHay
 animehay.city##.ah_footer
