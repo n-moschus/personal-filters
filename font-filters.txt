@@ -1,5 +1,5 @@
 ! Title: Font filters
-! Version: 0.9.1
+! Version: 0.9.3
 ! Description: Change the default font on some websites
 ! Homepage: https://github.com/n-moschus/personal-filters/blob/main/font-filters.txt
 
@@ -76,3 +76,9 @@ apkmirror.com##*:style(font-family: "SF Pro Display", sans-serif !important)
 
 ! Icecream Apps
 icecreamapps.com##*:style(font-family: "SF Pro Display", sans-serif !important)
+
+! Streamtape
+streamtape.com##*:style(font-family: "SF Pro Display", sans-serif !important)
+
+! 4horlover
+4horlover.com##*:style(font-family: "SF Pro Display", sans-serif !important)
