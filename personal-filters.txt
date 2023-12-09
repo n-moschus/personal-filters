@@ -1,5 +1,5 @@
 ! Title: Personal filters
-! Version: 1.0.1
+! Version: 1.0.2
 ! Description: Block some elements and advertise on some websites
 ! Homepage: https://github.com/n-moschus/personal-filters/blob/main/personal-filters.txt
 
@@ -184,6 +184,8 @@ motchillzz.co##.caption
 motchillzz.co##.short-description
 motchillzz.co##.text-center.tip-change-server.film-note:style(background-color:rgba(0,0,0,0) !important)
 motchillzz.co##.text-center.tip-change-server.film-note > span
+motchillzz.co##[href="javascript:void(0)"]
+motchillzz.co###mp-preload-popup-overlay
 motchillzz.co###footer
 motchillzz.co###tabs-facebook
 ||www.facebook.com/v16.0/plugins/comments.php?
