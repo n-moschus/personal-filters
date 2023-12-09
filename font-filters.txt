@@ -1,5 +1,5 @@
 ! Title: Font filters
-! Version: 0.9.9
+! Version: 1.0.0
 ! Description: Change the default font on some websites
 ! Homepage: https://github.com/n-moschus/personal-filters/blob/main/font-filters.txt
 
@@ -82,3 +82,6 @@ streamtape.com##*:style(font-family: "SF Pro Display", sans-serif !important)
 
 ! 4horlover
 4horlover.com##*:style(font-family: "SF Pro Display", sans-serif !important)
+
+! MotChill
+motchillz.org,motchillzz.co###page-info .blockbody .title:style(font-family: "UTB Bebas Title", 'UTMCafetaRegular' !important)
