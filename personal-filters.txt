@@ -1,19 +1,19 @@
 ! Title: Personal filters
-! Version: 1.0.4
+! Version: 1.0.5
 ! Description: Block some elements and advertise on some websites
 ! Homepage: https://github.com/n-moschus/personal-filters/blob/main/personal-filters.txt
 
-! Microsoft Bing
+! MICROSOFT BING
 www.bing.com##.below_sbox
 www.bing.com###idCont .sw_mktsw *:style(color: #000000 !important)
 www.bing.com##.sbox.c_show_box .sb_form, .c_show_box.sbox_cn .sb_form:style(min-height: 1rem !important)
 
-! FShare
-||storage.fshare.vn/images/Fcode01luottai_Download_300x600-min.jpg$image
-||storage.fshare.vn/images/Banner_Branding1_T9.2023_trangtaivip_dacquyenVIP300x250.gif$image
-||storage.fshare.vn/images/Banner_Branding1_T9.2023_dangnhap_dacquyenVIP300x250.gif$image
-||storage.fshare.vn/images/Goldvip_T82023.gif$image
-||storage.fshare.vn/images/CTKM_thang11_485x60.gif$image
+! FSHARE
+||storage.fshare.vn/images/Fcode01luottai_Download_300x600-min.jpg$image,domain=fshare.vn
+||storage.fshare.vn/images/Banner_Branding1_T9.2023_trangtaivip_dacquyenVIP300x250.gif$image,domain=fshare.vn
+||storage.fshare.vn/images/Banner_Branding1_T9.2023_dangnhap_dacquyenVIP300x250.gif$image,domain=fshare.vn
+||storage.fshare.vn/images/Goldvip_T82023.gif$image,domain=fshare.vn
+||storage.fshare.vn/images/CTKM_thang11_485x60.gif$image,domain=fshare.vn
 ||www.fshare.vn/images/banner/112023/popup_file_manager_600x400.png
 www.fshare.vn##.mdc-toolbar__section--align-start.mdc-toolbar__section > .mdc-toolbar__icon--menu.material-icons.tree-menu-menu.tree-menu
 www.fshare.vn##.popup-vip-cus__back-drop, .popup-vip-cus__visibility.popup-vip-cus
@@ -24,13 +24,13 @@ www.fshare.vn##.quang-cao-ben-trai
 www.fshare.vn##.space-top-left-and-top-right
 www.fshare.vn##.first-paid-popup-cus__close-btn
 
-! TimFShare
-||timfshare.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fimage_2023_11_09T04_29_21_077Z.e59b7dc9.png&w=*0&q=75$image
+! TIMFSHARE
+||timfshare.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fimage_2023_11_09T04_29_21_077Z.e59b7dc9.png&w=*0&q=75$image,domain=timfshare.com
 
 ! Facebook: People You May Know on Profile
 www.facebook.com##.x1xmf6yo.xev17xk.xy80clv.xso031l.xm81vs4.x178xt8z.x26u7qi.x1q0q8m5.xu3j5b3.x13fuv20.x9jhf4c.x30kzoy.xgqcy7u.x1lq5wgf.xu1343h.x1nb4dca.x1y71gwh.x1exxf4d, div.xusnbm3.x1w6jkce.x1xmf6yo.xw3qccf.xsgj6o6 > .xh8yej3.x1n2onr6.xl56j7k.xdt5ytf.x3nfvp2.x9f619.x1a2a7pz.x1lku1pv.x87ps6o.x13rtm0m.x1e5q0jg.x3x9cwd.x1o1ewxj.xggy1nq.x1hl2dhg.x16tdsg8.xkhd6sd.x18d9i69.x4uap5.xexx8yu.x1mh8g0r.xat24cr.x11i5rnm.xdj266r.xe8uvvx.x1ypdohk.xav7gou.xaqea5y.x1b1mbwd.x6umtig.xjbqb8w.x1i10hfl > .x1swvt13.x1pi30zi.x1r1pt67.x1qhmfi1.x9f619.xm0m39n.x1qhh985.xcfux6l.x972fbf.x1403ito.x585lrc.x17zwfj4.xi112ho.x1q0g3np.xozqiw3.x6s0dn4.xl56j7k.x2lah0s.x78zum5.x1ja2u2z.x1n2onr6
 
-! Facebook English
+! FACEBOOK (English)
 ! Suggested for you
 www.facebook.com##[aria-posinset] div:not(:only-child)>div:only-child>div:only-child>div:first-child[class=""]>div:not([data-0]):has-text(/^Suggested/):upward([aria-posinset])
 ! Unlabelled Suggested posts (with a Follow button)
@@ -48,7 +48,7 @@ www.facebook.com##[aria-posinset] [aria-label="See more"][href="/reel/?s=ifu_see
 ! Marketplace
 facebook.com##[aria-label*="Marketplace"] object > a[href^="/ads/"] > span:not(:empty):upward(11)
 
-! Facebook Tiếng Việt
+! FACEBOOK (Tiếng Việt)
 ! Gợi ý cho bạn
 www.facebook.com##[aria-posinset] div:not(:only-child)>div:only-child>div:only-child>div:first-child[class=""]>div:not([data-0]):has-text(/^Gợi ý/):upward([aria-posinset])
 ! Bài đăng được đề xuất không được gắn nhãn (có nút Theo dõi)
@@ -66,21 +66,21 @@ www.facebook.com##[aria-posinset] [aria-label="Xem thêm"][href="/reel/?s=ifu_se
 ! Marketplace
 facebook.com##[aria-label*="Marketplace"] object > a[href^="/ads/"] > span:not(:empty):upward(11)
 
-! Google Bard: Hide Banner
+! GOOGLE BARD: Hide Banner
 bard.google.com##.desktop.experiment.regular.banner
 
-! YouTube: Hide Short
+! YOUTUBE: Hide Short
 www.youtube.com###content > .ytd-rich-section-renderer.style-scope, ytd-reel-shelf-renderer.ytd-item-section-renderer.style-scope
-! YouTube: Hide suggest video <1000 views (only English)
+! YOUTUBE: Hide suggest video <1000 views (only English)
 ! www.youtube.com##div#metadata-line > span.ytd-video-meta-block:nth-of-type(1):not(:has-text(/K|M/)):upward(ytd-rich-item-renderer)
 
-! YouTube Music: Hide Pop-up
+! YOUTUBE MUSIC: Hide Pop-up
 music.youtube.com##tp-yt-paper-dialog.ytmusic-popup-container.style-scope > .ytmusic-popup-container.style-scope
 
-! Spotify
+! SPOTIFY
 open.spotify.com##.GenericModal--afterOpen.GenericModal--animated.encore-dark-theme.GenericModal > div > iframe, .GenericModal__overlay--afterOpen.GenericModal__overlay--animated.GenericModal__overlay
 
-! Zalo Web
+! ZALO
 chat.zalo.me##.tds-banner-download__content-wrapper
 chat.zalo.me##.snack-body
 
@@ -90,31 +90,31 @@ voz.vn##.notice-content
 ! VN-Z
 vn-z.vn##.goog-te-gadget.skiptranslate
 vn-z.vn##.notice-content
-||upanh.vn-z.vn/images/2023/02/22/Vnzoomvs-Anyviewer300.jpg$image
+||upanh.vn-z.vn/images/2023/02/22/Vnzoomvs-Anyviewer300.jpg$image,domain=vn-z.vn
 
-! Icecream PDF Candy
+! ICECREAM PDF CANDY
 pdfcandy.com##.popup__extension.popupcandy
 
-! APK Pure
+! APK PURE
 apkpure.com##.chrome-install-pop
 
-! Wattpad
-||static.wattpad.com/image/
+! WATTPAD
 www.wattpad.com##.btn-primary.on-premium.try-premium
+||static.wattpad.com/image/$domain=wattpad.com
 
-! DocSachHay
+! DOC SACH HAY
 docsachhay.net##.fs-17.pb-4.pt-3.text-center.alert-warning
 docsachhay.net##.fs-17.box-notice.text-center
 ||docsach24.co/images/server-1/1612271069509.jpg$image
 docsachhay.net##.fb_iframe_widget_fluid_desktop.fb_iframe_widget.clearfix.mt-3.mt-lg-1.fb-comments
-||www.facebook.com/v14.0/plugins/comments.php?
+||www.facebook.com/v14.0/plugins/comments.php?$domain=docsachhay.net
 
-! NetTruyen
+! NET TRUYEN
 nettruyenx.com##video
 nettruyenx.com##.notify_block
-||www.facebook.com/v2.7/plugins/page.php?
+||www.facebook.com/v2.7/plugins/page.php?$domain=nettruyenx.com
 
-! HentaiVN
+! HENTAI VN
 hentaivn.tv##.main > p
 hentaivn.tv##.main > .qx_main
 hentaivn.tv##.container > p
@@ -132,19 +132,19 @@ hentaivn.autos##div.bar-title-episode:nth-of-type(2)
 hentaivn.autos##.right_ps > p
 
 ! POPS
-||vnw-img-cdn.popsww.com/api/v2/containers/file2/cms_thumbnails/2376x160
-||vnw-img-cdn.popsww.com/api/v2/containers/file2/cms_thumbnails/1376x195
-||vnw-img-cdn.popsww.com/api/v2/containers/file2/cms_thumbnails/1376_x_195
-||vnw-img-cdn.popsww.com/api/v2/containers/file2/cms_thumbnails/1029x348
-||vnw-img-cdn.popsww.com/api/v2/containers/file2/cms_thumbnails/_new__1029x348
-||vnw-img-cdn.popsww.com/api/v2/containers/file2/cms_thumbnails/web1-0e7e13516f78-1701678841562-haO2IEqL.png?v=*$image
+||vnw-img-cdn.popsww.com/api/v2/containers/file2/cms_thumbnails/2376x160$domain=pops.vn
+||vnw-img-cdn.popsww.com/api/v2/containers/file2/cms_thumbnails/1376x195$domain=pops.vn
+||vnw-img-cdn.popsww.com/api/v2/containers/file2/cms_thumbnails/1376_x_195$domain=pops.vn
+||vnw-img-cdn.popsww.com/api/v2/containers/file2/cms_thumbnails/1029x348$domain=pops.vn
+||vnw-img-cdn.popsww.com/api/v2/containers/file2/cms_thumbnails/_new__1029x348$domain=pops.vn
+||vnw-img-cdn.popsww.com/api/v2/containers/file2/cms_thumbnails/web1-0e7e13516f78-1701678841562-haO2IEqL.png?v=*$image,domain=pops.vn
 pops.vn##div.slider_popsSlider__pD5U2:nth-of-type(8)
 pops.vn##div.slider_popsSlider__pD5U2:nth-of-type(11)
 pops.vn##div.slider_popsSlider__pD5U2:nth-of-type(12)
 pops.vn##div.slider_popsSlider__pD5U2:nth-of-type(18)
 pops.vn##.wrapper-videojs_video__age-rating-warning__p_6ag
 
-! AnimeHay
+! ANIME HAY
 animehay.city##.ah_footer
 animehay.city##.bg-black.margin-10-0.fw-700.ah-frame-bg
 animehay.city##.bg-lochinvar.fw-700.flex-hozi-center.flex.button-default
@@ -153,12 +153,74 @@ animehay.city##.bg-red.fw-700.flex-hozi-center.flex.button-default
 animehay.city##.border-default.padding-10-20.bg-red
 animehay.city##.flex-hozi-center.flex.color-white.noti-warning
 animehay.city##.under_player.flex-ver-center.flex
+animehay.city##div.ah-frame-bg:nth-of-type(5)
 animehay.city##div.ah-frame-bg:nth-of-type(6)
 animehay.city##div.ah-frame-bg:nth-of-type(12)
 animehay.city##div.ah-frame-bg:nth-of-type(13)
 animehay.city##div.margin-10.flex-ver-center.flex > .bg-blue.fw-700.flex-hozi-center.flex.button-default
+animehay.city##.fw-700.flex-hozi-center.flex.padding-10-20.button-default > .material-icons-round
 
-! HHChina
+! ANIME HAY (STYLE)
+! Tiêu đề
+animehay.city##*:not(h1):style(font-weight: normal !important)
+! Thanh tìm kiếm
+animehay.city###navbar form:style(border: none !important; border-radius: 7.5px !important; background-color: rgba(36,36,36) !important)
+animehay.city###navbar .search-bar input:style(border-radius: 7.5px !important; background-color: rgba(36,36,36) !important)
+animehay.city###navbar .search-bar button:style(padding: 0 10px 0 10px !important; border-radius: 0 7.5px 7.5px 0 !important; background-color: rgba(36,36,36) !important)
+! Nút điều hướng (đầu)
+animehay.city###navbar .nav-items a:style(border: none !important; border-radius: 7.5px !important; background-color: rgba(36,36,36) !important)
+! Thanh ngăn cách
+animehay.city##.bg-gray-2:style(border: none !important; border-radius: 7.5px !important; background-color: rgba(36,36,36) !important)
+animehay.city##.fs-17:style(border-radius: 7.5px 0 0 7.5px !important)
+! Nút điều hướng (trên thanh ngăn cách)
+animehay.city##.border-default.padding-5-10.bg-blue, .border-default.padding-5-10.bg-red:style(border: none !important; border-radius: 5px !important; background-color: rgba(0,0,0) !important; margin-right: 4px !important)
+! Nền kệ (chung)
+animehay.city##.ah-frame-bg:style(border: none !important; border-radius: 7.5px !important; background-color: rgba(36,36,36) !important)
+! Nút cuộn kệ đề cử
+animehay.city##button.owl-dot > span:style(background-color: rgba(64,64,64,0.25) !important)
+animehay.city##.active.owl-dot > span:style(background-color: rgba(128,128,128,0.75) !important)
+! Kệ phim
+animehay.city##.movies-list .movie-item:style(border: none !important; background-color: rgba(0,0,0,0) !important; color: #ffffff !important)
+animehay.city##.movies-list .movie-item .score:style(border-radius: 5px !important; background-color: rgba(128,128,128,0.5) !important; color: #ffffff !important)
+animehay.city##.movies-list .movie-item .episode-latest:style(border: none !important; border-radius: 5px !important; background-color: rgba(156,46,58,0.5) !important; color: #ffffff !important)
+animehay.city##.episode_latest:style(border-radius: 5px !important; background-color: rgba(156,46,58,0.5) !important; color: #ffffff !important)
+! Nút trang
+animehay.city##.pagination a:not(.active_page, [href="javascript:toggleGoPage()"]):style(background-color: rgba(64,64,64,0.5) !important)
+animehay.city##.active_page, .pagination a:hover:not(.active_page):style(background-color: rgba(38,141,116) !important)
+animehay.city##[href="javascript:toggleGoPage()"]:style(background-color: rgba(156,46,58) !important)
+animehay.city##[href="https://animehay.city/phim-moi-cap-nhap/trang-1.html"]:nth-of-type(1), [href="https://animehay.city/the-loai/anime-1/trang-1.html"]:nth-of-type(1), [href="https://animehay.city/the-loai/cn-animation-34/trang-1.html"]:nth-of-type(1):style(background-color: rgba(64,64,64,0.5) !important)
+animehay.city##[href="https://animehay.city/phim-moi-cap-nhap/trang-132.html"]:nth-of-type(5), [href="https://animehay.city/the-loai/anime-1/trang-119.html"]:nth-of-type(5), [href="https://animehay.city/the-loai/cn-animation-34/trang-9.html"]:nth-of-type(5):style(background-color: rgba(64,64,64,0.5) !important)
+! Thanh nhập trang
+animehay.city##.pagination #go_page:style(border-radius: 7.5px 0 0 7.5px !important; margin-bottom: 4px !important)
+animehay.city##.pagination > div > div button:style(border-radius: 0 7.5px 7.5px 0 !important; background-color: #ffffff !important; color: rgba(128,128,128) !important; margin-bottom: 4px !important)
+! Thanh lọc phim
+animehay.city###filter-movie:style(border: none !important; border-radius: 7.5px !important; background-color: rgba(36,36,36) !important)
+animehay.city##.bg-blue:style(border: none !important; border-radius: 7.5px 7.5px 0 0 !important; background-color: rgba(44,78,164) !important)
+animehay.city##.condition-filter > div:style(border-color: rgba(44,78,164) !important; background-color: rgba(36,36,36) !important)
+animehay.city##.condition-filter > div > div > div:style(border-radius: 5px !important; background-color: rgba(64,64,64,0.5) !important)
+animehay.city##.flex-ver-center.display-none:style(border: none !important; border-radius: 7.5px !important; background-color: rgba(36,36,36) !important)
+animehay.city##.bg-red:style(border: none !important; border-radius: 7.5px !important; background-color: rgba(156,46,58) !important)
+! Thông tin phim
+animehay.city##.info-movie .head:style(border: none !important; border-radius: 0 0 7.5px 7.5px !important; background-color: rgba(36,36,36) !important)
+animehay.city##.info-movie .heading_movie:style(border: none !important; border-radius: 7.5px 7.5px 0 0 !important; background-color: rgba(64,64,64,0.5) !important)
+animehay.city##.info-movie .head .first:style(border: none !important; padding: 0 !important; width: 25% !important)
+animehay.city##.name_other, .list_cate, .status, .score, .update_time, .duration:style(border-bottom: 0.5px !important; border-color: rgba(200,200,200,0.05) !important)
+! Nút xem phim, theo dõi, đánh giá
+animehay.city##.fs-35:style(border: none !important; background-color: rgba(0,0,0,0) !important; padding: 0 !important)
+! Phần phim và bảng tập phim
+animehay.city##.bind_movie a:not(.bind_movie a.active):style(border: none !important; border-radius: 5px !important; background-color: rgba(64,64,64,0.5) !important; margin: 0 7px 4px 0 !important)
+animehay.city##.bind_movie a.active:style(border: none !important; border-radius: 5px !important; background-color: rgba(38,141,116) !important; margin: 0 7px 4px 0 !important)
+animehay.city##.info-movie .list_episode .list-item-episode a:not(.list-item-episode a:visited):style(border: 0.25px solid rgba(255,255,255,0.1) !important; background-color: rgba(36,36,36) !important)
+animehay.city##.list-item-episode a:visited:style(border: 0.25px solid rgba(255,255,255,0.1) !important; background-color: rgba(64,64,64) !important)
+! Xem phim (các nút điều hướng)
+animehay.city##.fs-21:style(border: none !important; background-color: rgba(0,0,0,0) !important; color: #6b6a6a !important)
+animehay.city##.button-default:not(.fs-21, .bg-green):style(border: none !important; border-radius: 7.5px !important; background-color: rgba(36,36,36) !important)
+animehay.city##.bg-green:not(.fs-35):style(border: none !important; border-radius: 7.5px !important; background-color: rgba(72,72,72,0.75) !important)
+! Xem phim (danh sách tập phim)
+animehay.city##.watching-movie .list-item-episode a:not(.list-item-episode a:visited, .watching-movie .list-item-episode a[active]):style(border: 0.25px solid rgba(255,255,255,0.1) !important; background-color: rgba(36,36,36) !important)
+animehay.city##.watching-movie .list-item-episode a[active]:style(border: 0.25px solid rgba(255,255,255,0.1) !important; background-color: rgba(156,46,58,0.75) !important)
+
+! HH CHINA
 hhchina.tv##.flex-space-auto.flex.bg-black.margin-10-0
 hhchina.tv##.bg-black.margin-10-0.fw-700.ah-frame-bg
 hhchina.tv##.bind_movie.ah-frame-bg
@@ -175,24 +237,25 @@ hhchina.tv##div.ah-frame-bg:nth-of-type(9)
 hhchina.tv##div.ah-frame-bg:nth-of-type(13)
 hhchina.tv##div.ah_content:nth-of-type(5)
 
-! MotChill
-motchillzz.co##h4
-motchillzz.co##.right.actions-user
-motchillzz.co##.btn-contact
-motchillzz.co##.suggest-dns >
-motchillzz.co##.tags
-motchillzz.co##.film-note.left-content-player
-motchillzz.co##.caption
-motchillzz.co##.short-description
-motchillzz.co##.text-center.tip-change-server.film-note:style(background-color:rgba(0,0,0,0) !important)
-motchillzz.co##.text-center.tip-change-server.film-note > span
-motchillzz.co##[href="javascript:void(0)"]
-motchillzz.co###mp-preload-popup-overlay
-motchillzz.co###footer
-motchillzz.co###tabs-facebook
-||www.facebook.com/v16.0/plugins/comments.php?
+! MOT CHILL
+motchillw.net##h4
+motchillw.net##.right.actions-user
+motchillw.net##.btn-contact
+motchillw.net##.suggest-dns >
+motchillw.net##.tags
+motchillw.net##.film-note.left-content-player
+motchillw.net##.caption
+motchillw.net##.short-description
+motchillw.net##.text-center.tip-change-server.film-note:style(background-color:rgba(0,0,0,0) !important)
+motchillw.net##.text-center.tip-change-server.film-note > span
+motchillw.net##[href="javascript:void(0)"]
+motchillw.net##[href="javascript:hide_catfish();"]
+motchillw.net###mp-preload-popup-overlay
+motchillw.net###footer
+motchillw.net###tabs-facebook
+||www.facebook.com/v16.0/plugins/comments.php?$domain=motchillzz.co
 
-! MotPhim
+! MOT PHIM
 motphim.uk##div.btn-groups
 motphim.uk##div.btn-groups > .play-tags
 motphim.uk##.tags
@@ -203,17 +266,17 @@ motphim.uk##body > center
 motphim.uk##.sda-catfish.sda-wrapper
 motphim.uk###footer
 motphim.uk##.fb_iframe_widget_fluid_desktop.fb_iframe_widget.fb-comments
-||www.facebook.com/v7.0/plugins/comments.php?
+||www.facebook.com/v7.0/plugins/comments.php?$domain=motphim.uk
 
-! PhimMoi
+! PHIM MOI
 phimmoiyyy.net##.phimmmoi
 phimmoiyyy.net###comments
 phimmoiyyy.net##div.sbox:nth-of-type(6)
 phimmoiyyy.net##div.sbox:nth-of-type(7)
 
-! 4horlover
+! 4HORLOVER
 4horlover.com##.mtsnb-container-outer, .mtsnb-fixed.mtsnb-top.mtsnb-shown.mtsnb
 
-! XoSoDaiPhat
+! XO SO DAI PHAT
 xosodaiphat.com##svg, .bx_close_btn_red_serverImg.bx_close_btn
-||img.alygmeame.xyz
+||img.alygmeame.xyz$domain=xosodaiphat.com
