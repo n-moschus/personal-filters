@@ -1,5 +1,5 @@
 ! Title: Personal filters
-! Version: 1.0.6
+! Version: 1.0.7
 ! Description: Block some elements and advertise on some websites
 ! Homepage: https://github.com/n-moschus/personal-filters/blob/main/personal-filters.txt
 
@@ -144,7 +144,7 @@ pops.vn##div.slider_popsSlider__pD5U2:nth-of-type(12)
 pops.vn##div.slider_popsSlider__pD5U2:nth-of-type(18)
 pops.vn##.wrapper-videojs_video__age-rating-warning__p_6ag
 
-! ANIME HAY
+! ANIME HAY (Block)
 animehay.city##.ah_footer
 animehay.city##.bg-black.margin-10-0.fw-700.ah-frame-bg
 animehay.city##.bg-lochinvar.fw-700.flex-hozi-center.flex.button-default
@@ -160,7 +160,7 @@ animehay.city##div.ah-frame-bg:nth-of-type(13)
 animehay.city##div.margin-10.flex-ver-center.flex > .bg-blue.fw-700.flex-hozi-center.flex.button-default
 animehay.city##.fw-700.flex-hozi-center.flex.padding-10-20.button-default > .material-icons-round
 
-! ANIME HAY (STYLE)
+! ANIME HAY (Change style)
 ! Tiêu đề
 animehay.city##*:not(h1):style(font-weight: normal !important)
 ! Thanh tìm kiếm
@@ -171,19 +171,22 @@ animehay.city###navbar .search-bar button:style(padding: 0 10px 0 10px !importan
 animehay.city###navbar .nav-items a:style(border: none !important; border-radius: 7.5px !important; background-color: rgba(36,36,36) !important)
 ! Thanh ngăn cách
 animehay.city##.bg-gray-2:style(border: none !important; border-radius: 7.5px !important; background-color: rgba(36,36,36) !important)
-animehay.city##.fs-17:style(border-radius: 7.5px 0 0 7.5px !important)
+animehay.city##.fs-17:not(.border-r-b-t.height-50.padding-0-10.fs-17.flex-hozi-center.flex.bg-black):style(border-radius: 7.5px 0 0 7.5px !important)
+animehay.city##.border-r-b-t.height-50.padding-0-10.fs-17.flex-hozi-center.flex.bg-black:style(border-radius: 0 7.5px 7.5px 0 !important)
+animehay.city##.flex-space-between:style(border: none !important; border-radius: 7.5px !important;background-color: rgba(36,36,36) !important)
 ! Nút điều hướng (trên thanh ngăn cách)
 animehay.city##.border-default.padding-5-10.bg-blue, .border-default.padding-5-10.bg-red:style(border: none !important; border-radius: 5px !important; background-color: rgba(0,0,0) !important; margin-right: 4px !important)
 ! Nền kệ (chung)
 animehay.city##.ah-frame-bg:style(border: none !important; border-radius: 7.5px !important; background-color: rgba(36,36,36) !important)
+animehay.city##.ah_noti:style(border: none !important; border-radius: 5px !important; background-color: rgba(24,24,24) !important)
 ! Nút cuộn kệ đề cử
-animehay.city##button.owl-dot > span:style(background-color: rgba(64,64,64,0.25) !important)
-animehay.city##.active.owl-dot > span:style(background-color: rgba(128,128,128,0.75) !important)
+animehay.city##button.owl-dot > span:style(background-color: rgba(64,64,64,0.5) !important)
+animehay.city##.active.owl-dot > span:style(background-color: rgba(172,147,74,0.75) !important)
 ! Kệ phim
 animehay.city##.movies-list .movie-item:style(border: none !important; background-color: rgba(0,0,0,0) !important; color: #ffffff !important)
-animehay.city##.movies-list .movie-item .score:style(border-radius: 5px !important; background-color: rgba(128,128,128,0.5) !important; color: #ffffff !important)
-animehay.city##.movies-list .movie-item .episode-latest:style(border: none !important; border-radius: 5px !important; background-color: rgba(156,46,58,0.5) !important; color: #ffffff !important)
-animehay.city##.episode_latest:style(border-radius: 5px !important; background-color: rgba(156,46,58,0.5) !important; color: #ffffff !important)
+animehay.city##.movies-list .movie-item .score:style(border-radius: 5px !important; background-color: rgba(172,147,74,0.75) !important; color: #ffffff !important)
+animehay.city##.movies-list .movie-item .episode-latest:style(border: none !important; border-radius: 5px !important; background-color: rgba(156,46,58,0.75) !important; color: #ffffff !important)
+animehay.city##.episode_latest:style(border-radius: 5px !important; background-color: rgba(156,46,58,0.75) !important; color: #ffffff !important)
 ! Nút trang
 animehay.city##.pagination a:not(.active_page, [href="javascript:toggleGoPage()"]):style(background-color: rgba(64,64,64,0.5) !important)
 animehay.city##.active_page, .pagination a:hover:not(.active_page):style(background-color: rgba(38,141,116) !important)
