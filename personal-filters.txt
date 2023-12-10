@@ -1,5 +1,5 @@
 ! Title: Personal filters
-! Version: 1.0.5
+! Version: 1.0.6
 ! Description: Block some elements and advertise on some websites
 ! Homepage: https://github.com/n-moschus/personal-filters/blob/main/personal-filters.txt
 
@@ -195,11 +195,11 @@ animehay.city##.pagination #go_page:style(border-radius: 7.5px 0 0 7.5px !import
 animehay.city##.pagination > div > div button:style(border-radius: 0 7.5px 7.5px 0 !important; background-color: #ffffff !important; color: rgba(128,128,128) !important; margin-bottom: 4px !important)
 ! Thanh lọc phim
 animehay.city###filter-movie:style(border: none !important; border-radius: 7.5px !important; background-color: rgba(36,36,36) !important)
-animehay.city##.bg-blue:style(border: none !important; border-radius: 7.5px 7.5px 0 0 !important; background-color: rgba(44,78,164) !important)
-animehay.city##.condition-filter > div:style(border-color: rgba(44,78,164) !important; background-color: rgba(36,36,36) !important)
-animehay.city##.condition-filter > div > div > div:style(border-radius: 5px !important; background-color: rgba(64,64,64,0.5) !important)
+animehay.city##.bg-blue:style(border: none !important; border-radius: 7.5px 7.5px 0 0 !important)
+animehay.city##.condition-filter > div:style(background-color: rgba(36,36,36) !important)
 animehay.city##.flex-ver-center.display-none:style(border: none !important; border-radius: 7.5px !important; background-color: rgba(36,36,36) !important)
 animehay.city##.bg-red:style(border: none !important; border-radius: 7.5px !important; background-color: rgba(156,46,58) !important)
+animehay.city##div#filtering div:style(border: none !important; border-radius: 5px !important)
 ! Thông tin phim
 animehay.city##.info-movie .head:style(border: none !important; border-radius: 0 0 7.5px 7.5px !important; background-color: rgba(36,36,36) !important)
 animehay.city##.info-movie .heading_movie:style(border: none !important; border-radius: 7.5px 7.5px 0 0 !important; background-color: rgba(64,64,64,0.5) !important)
@@ -214,11 +214,20 @@ animehay.city##.info-movie .list_episode .list-item-episode a:not(.list-item-epi
 animehay.city##.list-item-episode a:visited:style(border: 0.25px solid rgba(255,255,255,0.1) !important; background-color: rgba(64,64,64) !important)
 ! Xem phim (các nút điều hướng)
 animehay.city##.fs-21:style(border: none !important; background-color: rgba(0,0,0,0) !important; color: #6b6a6a !important)
-animehay.city##.button-default:not(.fs-21, .bg-green):style(border: none !important; border-radius: 7.5px !important; background-color: rgba(36,36,36) !important)
+animehay.city##.button-default:not(.fs-21, .bg-green, .flex-hozi-center.fw-500.flex.margin-10-0.bg-red.padding-10-20.button-default):style(border: none !important; border-radius: 7.5px !important; background-color: rgba(36,36,36) !important)
 animehay.city##.bg-green:not(.fs-35):style(border: none !important; border-radius: 7.5px !important; background-color: rgba(72,72,72,0.75) !important)
 ! Xem phim (danh sách tập phim)
 animehay.city##.watching-movie .list-item-episode a:not(.list-item-episode a:visited, .watching-movie .list-item-episode a[active]):style(border: 0.25px solid rgba(255,255,255,0.1) !important; background-color: rgba(36,36,36) !important)
 animehay.city##.watching-movie .list-item-episode a[active]:style(border: 0.25px solid rgba(255,255,255,0.1) !important; background-color: rgba(156,46,58,0.75) !important)
+! Thành phần trong Nút danh sách
+animehay.city##.tab-links a:not(.tab-links a.active):style(border: none !important; background-color: rgba(36,36,36) !important)
+animehay.city##.tab-links a.active:style(border: none !important; background-color: rgba(156,46,58) !important)
+animehay.city###drop-down-1 .tab-content a:style(background-color: rgba(72,72,72,0.5) !important; border: 0.25px solid rgba(0,0,0,0.1) !important)
+! Lịch sử
+animehay.city##.watch-history .item:style(border: none !important)
+animehay.city##.watch-history .item a > div:last-child:style(border: 0.5px solid rgba(0,0,0,0) !important; border-radius: 0 7.5px 7.5px 0 !important; background-color: rgba(64,64,64,0.5) !important; height: 38px !important)
+animehay.city##.watch-history .item a > div:first-child:style(border: none !important; border-radius: 7.5px 0 0 7.5px!important; background-color: rgba(64,64,64,0.5) !important; width: 60px !important)
+animehay.city##.watch-history .item a img:style(width: 60px !important)
 
 ! HH CHINA
 hhchina.tv##.flex-space-auto.flex.bg-black.margin-10-0
