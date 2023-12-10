@@ -154,6 +154,7 @@ animehay.city##.border-default.padding-10-20.bg-red
 animehay.city##.flex-hozi-center.flex.color-white.noti-warning
 animehay.city##.under_player.flex-ver-center.flex
 animehay.city##div.ah-frame-bg:nth-of-type(6)
+animehay.city##div.ah-frame-bg:nth-of-type(12)
 animehay.city##div.ah-frame-bg:nth-of-type(13)
 animehay.city##div.margin-10.flex-ver-center.flex > .bg-blue.fw-700.flex-hozi-center.flex.button-default
 
