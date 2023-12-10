@@ -1,5 +1,5 @@
 ! Title: Personal filters
-! Version: 1.0.3
+! Version: 1.0.4
 ! Description: Block some elements and advertise on some websites
 ! Homepage: https://github.com/n-moschus/personal-filters/blob/main/personal-filters.txt
 
@@ -150,40 +150,71 @@ animehay.city##.border-default.padding-10-20.bg-red
 animehay.city##.bg-lochinvar.noti-info
 animehay.city##.under_player.flex-ver-center.flex
 animehay.city##.bg-black.margin-10-0.fw-700.ah-frame-bg
-animehay.city##div.ah-frame-bg:nth-of-type(12)
+animehay.city##.flex-hozi-center.flex.color-white.noti-warning
+animehay.city##.bg-red.fw-700.flex-hozi-center.flex.button-default
+animehay.city##.bg-lochinvar.fw-700.flex-hozi-center.flex.button-default
+animehay.city##.fw-700.flex-hozi-center.flex.padding-10-20.button-default > .material-icons-round
+animehay.city##div.margin-10.flex-ver-center.flex > .bg-blue.fw-700.flex-hozi-center.flex.button-default
 animehay.city##div.ah-frame-bg:nth-of-type(5)
 animehay.city##div.ah-frame-bg:nth-of-type(6)
-animehay.city##.flex-hozi-center.flex.color-white.noti-warning
+animehay.city##div.ah-frame-bg:nth-of-type(10)
+animehay.city##div.ah-frame-bg:nth-of-type(12)
 animehay.city##div.ah-frame-bg:nth-of-type(13)
 
 ! AnimeHay: Style
+animehay.city###drop-down-4 > .flex:style(border: none !important)
+animehay.city##.color-gray.bg-black.padding-10:style(border-radius: 5px 0 0 5px !important; background-color: rgba(36,37,37) !important)
+animehay.city##.color-gray.bg-black.flex-hozi-center.flex:style(border-radius: 0 5px 5px 0 !important; padding: 0 10px 0 10px !important; background-color: rgba(16,16,16,0.5) !important)
+animehay.city###navbar .nav-items a:style(border: none !important; border-radius: 5px !important)
+animehay.city##.bg-gray-2.margin-10-0, .ah-carousel > .bg-gray-2.margin-10-0, .flex-space-auto.flex.bg-gray-2.margin-10-0:style(border: none !important; border-radius: 5px !important)
+animehay.city##.height-40:style(border: none !important; border-radius: 5px 0 0 5px !important)
+animehay.city###filter-movie:style(border: none !important; border-radius: 5px !important; background-color: rgba(36,37,37) !important)
+animehay.city##.bg-blue:style(border-radius: 5px 5px 0 0 !important; background-color: rgba(44,78,164) !important)
+animehay.city##.condition-filter > div:style(border-color: rgba(44,78,164) !important; background-color: rgba(36,37,37) !important)
+animehay.city##.flex-ver-center.display-none:style(border-radius: 0 0 7.5px 7.5px !important; background-color: rgba(36,37,37) !important)
+animehay.city###filter-movie:style(border: none !important; border-radius: 5px !important; background-color: rgba(36,37,37) !important)
+animehay.city##.condition-filter > div > div > div:style(border: none !important; border-radius: 5px !important; background-color: rgba(64,64,64,0.5) !important)
+animehay.city##.flex-hozi-center.fw-500.flex.margin-10-0.bg-red.padding-10-20.button-default:style(border-radius: 5px !important; background-color: rgba(156,46,58) !important)
 animehay.city##.owl-drag.owl-loaded.owl-theme.owl-carousel.ah-frame-bg, .ah-frame-bg.movies-list:style(background-color: rgba(64,64,64,0) !important)
 animehay.city##.owl-item .episode_latest, .movies-list .movie-item .episode-latest, .movies-list .movie-item .score:style(border: none !important; background-color: rgba(156,46,58,0.5) !important; font-weight: normal !important; color: #ffffff !important)
-animehay.city##.border-default.padding-5-10.bg-red:style(border: none !important; background-color: rgba(156,46,58) !important)
-animehay.city##.border-default.padding-5-10.bg-blue:style(border: none !important; background-color: rgba(44,78,164) !important)
+animehay.city##button.owl-dot > span:style(border: none !important; background-color: rgba(64,64,64,0.25) !important)
+animehay.city##.active.owl-dot > span:style(border: none !important; background-color: rgba(255,255,255,0.5) !important)
+animehay.city##.pagination a:not(.active_page, [href="javascript:toggleGoPage()"]):style(border: none !important; background-color: rgba(64,64,64,0.75) !important)
+animehay.city##.active_page:style(border: none !important; background-color: rgba(85,145,139) !important)
+animehay.city##[href="javascript:toggleGoPage()"]:style(border: none !important; background-color: rgba(156,46,58) !important)
+animehay.city##[href="https://animehay.city/phim-moi-cap-nhap/trang-1.html"]:nth-of-type(1), [href="https://animehay.city/the-loai/anime-1/trang-1.html"]:nth-of-type(1), [href="https://animehay.city/the-loai/cn-animation-34/trang-1.html"]:nth-of-type(1), [href="https://animehay.city/loc-phim/W1tdLFtdLFtdLFtdXQ==/trang-1.html"]:nth-of-type(1):style(border-radius: 5px 0 0 5px !important)
+animehay.city##[href="https://animehay.city/phim-moi-cap-nhap/trang-132.html"], [href="https://animehay.city/the-loai/anime-1/trang-119.html"], [href="https://animehay.city/the-loai/cn-animation-34/trang-9.html"], [href="https://animehay.city/loc-phim/W1tdLFtdLFtdLFtdXQ==/trang-132.html"]:style(border-radius: 0 5px 5px 0 !important)
+animehay.city###go_page:style(border-radius: 5px 0 0 5px !important)
+animehay.city##.go_page > form > button:style(border-radius: 0 5px 5px 0 !important; background-color: #ffffff !important; color: rgba(64,64,64,0.5) !important)
+animehay.city##.border-default.padding-5-10.bg-red:style(border: none !important; background-color: rgba(0,0,0) !important; border-radius: 5px !important; margin-right: 4px !important)
+animehay.city##.border-default.padding-5-10.bg-blue:style(border: none !important; background-color: rgba(0,0,0) !important; border-radius: 5px !important; margin-right: 3px !important)
 animehay.city##.movies-list .movie-item:style(background-color: rgba(64,64,64,0) !important; border: none !important)
-animehay.city##.movies-list .movie-item .name-movie:style(font-weight: normal !important)
-animehay.city##.name_other > div, .list_cate > div, .status > div, .score > div, .update_time > div, .duration > div, .ah-frame-bg .heading:style(font-weight: normal !important)
+animehay.city##.movies-list .movie-item .name-movie:style(font-weight: 500 !important)
+animehay.city##.heading_movie:style(border: none !important; border-radius: 5px 5px 0 0 !important; background-color: rgba(64,64,64,0.25) !important)
+animehay.city##.ah-frame-bg.head:style(border: none !important; border-radius: 0 0 5px 5px !important; background-color: rgba(0,0,0,0.25) !important)
+animehay.city##.info-movie .head .first:style(background: none !important; width: 20% !important; border-radius: 5px !important)
+animehay.city##.name_other, .list_cate, .status, .score, .update_time, .duration, .ah-frame-bg .heading:style(border-color: rgba(64,64,64,0.25) !important)
+animehay.city##.name_other > div, .list_cate > div, .status > div, .score > div, .update_time > div, .duration > div, .ah-frame-bg .heading:style(font-weight: normal !important; border-color: rgba(64,64,64,0.25) !important)
 animehay.city##.info-movie .head .last > div.list_cate a:style(background-color: rgba(64,64,64,0.25) !important; border: none !important; border-radius: 4px 4px 4px 4px !important)
-animehay.city##.bg-lochinvar.flex-hozi-center.flex.fs-15.fw-500.button-default.fs-35.padding-5-15, .flex-hozi-center.flex.fs-15.fw-500.button-default.fs-35.padding-5-15.bg-orange:style(background-color: rgba(0,0,0,0) !important)
+animehay.city##.bg-lochinvar.flex-hozi-center.flex.fs-15.fw-500.button-default.fs-35.padding-5-15, .flex-hozi-center.flex.fs-15.fw-500.button-default.fs-35.padding-5-15.bg-green, .flex-hozi-center.flex.fs-15.fw-500.button-default.fs-35.padding-5-15.bg-orange:style(background-color: rgba(0,0,0,0) !important)
 animehay.city##.bind_movie a:style(background-color: rgba(64,64,64,0.75) !important)
 animehay.city##.bind_movie a.active:style(background-color: rgba(85,145,139) !important)
-animehay.city##.list-item-episode a:visited:style(background-color: rgba(32,32,32) !important)
+animehay.city##.info-movie .list_episode .list-item-episode a, .watching-movie .list-item-episode a:style(border: 1px solid !important; border-color: rgba(200,200,200,0.25) !important; margin: 0.5px !important)
+animehay.city##.list-item-episode a:visited:style(background-color: rgba(36,37,37) !important)
 animehay.city##.watching-movie .list-item-episode a[active]:style(background-color: rgba(156,46,58,0.75) !important)
 animehay.city##.list-item-episode a:hover:style(background-color: rgba(156,46,58,0.5) !important)
 animehay.city##*:style(border-bottom: 0px !important)
-animehay.city##.bg-red.fw-700.flex-hozi-center.flex.button-default
-animehay.city##.bg-lochinvar.fw-700.flex-hozi-center.flex.button-default
-animehay.city##div.margin-10.flex-ver-center.flex > .bg-blue.fw-700.flex-hozi-center.flex.button-default
 animehay.city##.border-l-t.bg-black.flex-hozi-center.height-40.inline-flex.color-gray.padding-0-20.fw-700.fs-17:style(font-weight: normal !important; padding: 0px 5px 0px 15px !important)
 animehay.city##.fs-21.bg-brown.padding-5.button-default, .color-white.fs-21.bg-red.padding-5.button-default:style(background-color: rgba(0,0,0,0) !important)
 animehay.city##.fs-21.bg-brown.padding-5.button-default > .material-icons-round, #report_error > .material-icons-round:style(color: #CAC9C9 !important)
 animehay.city##.bg-green.button-default:style(background-color: rgba(64,64,64) !important)
-animehay.city###sv_Hydrax, #sv_TIK, .ah-frame-bg.list_episode:style(background-color: rgba(64,64,64,0.25) !important)
-animehay.city##.fw-700.flex-hozi-center.flex.padding-10-20.button-default > .material-icons-round
+animehay.city###sv_Hydrax, #sv_TIK:style(background-color: rgba(64,64,64,0.25) !important)
 animehay.city##.fw-700.flex-hozi-center.flex.padding-10-20.button-default:style(font-weight: normal !important; padding: 10px 10px 10px 10px !important; background-color: rgba(64,64,64,0.5) !important)
 animehay.city##.fw-700.flex-space-auto.flex.heading > span:style(font-weight: normal !important)
-animehay.city##.ah-frame-bg.list_episode, .flex-wrap.ah-frame-bg.flex, .ah-frame-bg.bind_movie, .ah-frame-bg.desc:style(background-color: rgba(64,64,64,0.5) !important)
+animehay.city##.flex-wrap.ah-frame-bg.flex, .ah-frame-bg.bind_movie:style(background-color: rgba(64,64,64,0.5) !important)
+animehay.city##.ah-frame-bg.list_episode:style(background-color: rgba(64,64,64,0.5) !important)
+animehay.city##.ah-frame-bg.desc:style(background-color: rgba(64,64,64,0.5) !important)
+animehay.city##.scroll-bar.list-item-episode:style(border: 0.5px solid !important; border-color: rgba(200,200,200,0.1) !important)
 
 ! HHChina
 hhchina.tv##.flex-space-auto.flex.bg-black.margin-10-0
