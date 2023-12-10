@@ -1,5 +1,5 @@
 ! Title: Personal filters
-! Version: 1.0.2
+! Version: 1.0.3
 ! Description: Block some elements and advertise on some websites
 ! Homepage: https://github.com/n-moschus/personal-filters/blob/main/personal-filters.txt
 
@@ -155,6 +155,35 @@ animehay.city##div.ah-frame-bg:nth-of-type(5)
 animehay.city##div.ah-frame-bg:nth-of-type(6)
 animehay.city##.flex-hozi-center.flex.color-white.noti-warning
 animehay.city##div.ah-frame-bg:nth-of-type(13)
+
+! AnimeHay: Style
+animehay.city##.owl-drag.owl-loaded.owl-theme.owl-carousel.ah-frame-bg, .ah-frame-bg.movies-list:style(background-color: rgba(64,64,64,0) !important)
+animehay.city##.owl-item .episode_latest, .movies-list .movie-item .episode-latest, .movies-list .movie-item .score:style(border: none !important; background-color: rgba(156,46,58,0.5) !important; font-weight: normal !important; color: #ffffff !important)
+animehay.city##.border-default.padding-5-10.bg-red:style(border: none !important; background-color: rgba(156,46,58) !important)
+animehay.city##.border-default.padding-5-10.bg-blue:style(border: none !important; background-color: rgba(44,78,164) !important)
+animehay.city##.movies-list .movie-item:style(background-color: rgba(64,64,64,0) !important; border: none !important)
+animehay.city##.movies-list .movie-item .name-movie:style(font-weight: normal !important)
+animehay.city##.name_other > div, .list_cate > div, .status > div, .score > div, .update_time > div, .duration > div, .ah-frame-bg .heading:style(font-weight: normal !important)
+animehay.city##.info-movie .head .last > div.list_cate a:style(background-color: rgba(64,64,64,0.25) !important; border: none !important; border-radius: 4px 4px 4px 4px !important)
+animehay.city##.bg-lochinvar.flex-hozi-center.flex.fs-15.fw-500.button-default.fs-35.padding-5-15, .flex-hozi-center.flex.fs-15.fw-500.button-default.fs-35.padding-5-15.bg-orange:style(background-color: rgba(0,0,0,0) !important)
+animehay.city##.bind_movie a:style(background-color: rgba(64,64,64,0.75) !important)
+animehay.city##.bind_movie a.active:style(background-color: rgba(85,145,139) !important)
+animehay.city##.list-item-episode a:visited:style(background-color: rgba(32,32,32) !important)
+animehay.city##.watching-movie .list-item-episode a[active]:style(background-color: rgba(156,46,58,0.75) !important)
+animehay.city##.list-item-episode a:hover:style(background-color: rgba(156,46,58,0.5) !important)
+animehay.city##*:style(border-bottom: 0px !important)
+animehay.city##.bg-red.fw-700.flex-hozi-center.flex.button-default
+animehay.city##.bg-lochinvar.fw-700.flex-hozi-center.flex.button-default
+animehay.city##div.margin-10.flex-ver-center.flex > .bg-blue.fw-700.flex-hozi-center.flex.button-default
+animehay.city##.border-l-t.bg-black.flex-hozi-center.height-40.inline-flex.color-gray.padding-0-20.fw-700.fs-17:style(font-weight: normal !important; padding: 0px 5px 0px 15px !important)
+animehay.city##.fs-21.bg-brown.padding-5.button-default, .color-white.fs-21.bg-red.padding-5.button-default:style(background-color: rgba(0,0,0,0) !important)
+animehay.city##.fs-21.bg-brown.padding-5.button-default > .material-icons-round, #report_error > .material-icons-round:style(color: #CAC9C9 !important)
+animehay.city##.bg-green.button-default:style(background-color: rgba(64,64,64) !important)
+animehay.city###sv_Hydrax, #sv_TIK, .ah-frame-bg.list_episode:style(background-color: rgba(64,64,64,0.25) !important)
+animehay.city##.fw-700.flex-hozi-center.flex.padding-10-20.button-default > .material-icons-round
+animehay.city##.fw-700.flex-hozi-center.flex.padding-10-20.button-default:style(font-weight: normal !important; padding: 10px 10px 10px 10px !important; background-color: rgba(64,64,64,0.5) !important)
+animehay.city##.fw-700.flex-space-auto.flex.heading > span:style(font-weight: normal !important)
+animehay.city##.ah-frame-bg.list_episode, .flex-wrap.ah-frame-bg.flex, .ah-frame-bg.bind_movie, .ah-frame-bg.desc:style(background-color: rgba(64,64,64,0.5) !important)
 
 ! HHChina
 hhchina.tv##.flex-space-auto.flex.bg-black.margin-10-0
