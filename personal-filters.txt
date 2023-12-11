@@ -1,5 +1,5 @@
 ! Title: Personal filters
-! Version: 1.0.8
+! Version: 1.0.9
 ! Description: Block some elements and advertise on some websites
 ! Homepage: https://github.com/n-moschus/personal-filters/blob/main/personal-filters.txt
 
@@ -267,7 +267,7 @@ motchillw.net###tabs-facebook
 ||www.facebook.com/v16.0/plugins/like.php?$domain=motchillw.net
 ! MOT CHILL (Style)
 ! Đầu trang
-motchillw.net###header > .container:style(border: none !important; background-color: rgba(72,72,72) !important; height: 80px !important; margin-top: -10px !important)
+motchillw.net###header > .container:style(border: none !important; background-color: rgba(72,72,72) !important; height: 80px !important)
 motchillw.net###header, .main-menu:style(border: none !important; background-color: rgba(0,0,0) !important)
 motchillw.net##.main-menu > .container:style(border: none !important; background-color: rgba(72,72,72) !important)
 motchillw.net##.logo.left:style(margin-left: 10px !important)
@@ -277,7 +277,7 @@ motchillw.net###keyword:style(border-radius: 5px !important; background-color: r
 motchillw.net##.fa-search.fa:style(font-size: 16px !important; margin-right: 4px !important; margin-top: 2px !important)
 motchillw.net##.right.actions-user:style(margin-top: 12px !important; margin-right: 10px !important)
 ! Nền trang
-motchillw.net##.main-content > .container:style(border: none !important; background-color: rgba(36,36,36) !important; margin-top: -20px !important)
+motchillw.net##.main-content > .container:style(border: none !important; background-color: rgba(36,36,36) !important)
 ! Kệ Phim hot
 motchillw.net##.tophot:style(border: none !important; margin-left: 7px !important; height: 40px !important)
 motchillw.net##.film-hot.list-films > .title-box:style(margin-top: 10px !important; height: 40px !important)
