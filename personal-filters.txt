@@ -1,5 +1,5 @@
 ! Title: Personal filters
-! Version: 1.1.1
+! Version: 1.1.3
 ! Description: Block some elements and advertise on some websites
 ! Homepage: https://github.com/n-moschus/personal-filters/blob/main/personal-filters.txt
 
@@ -260,18 +260,19 @@ motchillw.net##.tags
 motchillw.net##.text-center.tip-change-server.film-note > span
 motchillw.net##h4
 motchillw.net##[href="javascript:hide_catfish();"]
+motchillw.net##div > [href="javascript:void(0)"]
+motchillw.net###mp-preload-popup-overlay
 motchillw.net###footer
 motchillw.net###tabs-facebook
 ||www.facebook.com/v16.0/plugins/comments.php?$domain=motchillw.net
 ||www.facebook.com/v16.0/plugins/like.php?$domain=motchillw.net
 ! MOT CHILL (Style)
 ! Đầu trang
-motchillw.net###header > .container:style(background-color: rgba(72,72,72) !important)
+motchillw.net###header > .container:style(background-color: rgba(64,64,64,0.75) !important)
 motchillw.net###header, .main-menu:style(background-color: rgba(0,0,0) !important)
-motchillw.net##.main-menu > .container:style(background-color: rgba(72,72,72) !important)
-motchillw.net##.relative.search-container:style(background-color: rgba(72,72,72) !important)
-motchillw.net###form_search:style(border-radius: 7.5px important; backround-color: rgba(72,72,72) !important)
-motchillw.net###keyword:style(border-radius: 5px !important; background-color: rgba(72,72,72) !important)
+motchillw.net##.main-menu > .container:style(background-color: rgba(64,64,64,0.75) !important)
+motchillw.net###form_search:style(border-radius: 7.5px important; backround-color: rgba(64,64,64,0.75) !important)
+motchillw.net###keyword:style(border-radius: 5px !important; background-color: rgba(64,64,64,0.75) !important)
 ! Kệ Phim hot
 motchillw.net##.fa-angle-left.fa:style(margin-left: 7.5px !important; color: (255,255,255,0.5) !important; font-size: 48px !important)
 motchillw.net##.fa-angle-right.fa:style(color: (255,255,255,0.5) !important; font-size: 48px !important)
@@ -279,7 +280,7 @@ motchillw.net##.owl-prev, .owl-next:style(background-color: rgba(0,0,0,0.25) !im
 motchillw.net##.owl-wrapper:style(margin-left: 3px !important)
 motchillw.net##.absolute.text:style(background-color: rgba(0,0,0,0.5) !important; height: 48px !important; line-height: 14px !important)
 ! Kệ phim chung (bên trái)
-motchillw.net##.label:style(border-radius: 0px !important; background-color: rgba(197,133,96,0.75) !important; margin-top: -5px !important; box-shadow: none !important)
+motchillw.net##.label:style(border: none !important; border-radius: 0px !important; background-color: rgba(197,133,96,0.75) !important; margin-top: -5px !important; box-shadow: none !important)
 motchillw.net##li.item > .name:style(background-color: rgba(0,0,0,0.25) !important; height: 48px !important; line-height: 14px !important)
 ! Kệ phim chung (bên phải)
 motchillw.net##.absolute.number-rank:style(background-color: rgba(197,133,96,0.75) !important)
