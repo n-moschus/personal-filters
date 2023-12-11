@@ -114,23 +114,6 @@ nettruyenx.com##video
 nettruyenx.com##.notify_block
 ||www.facebook.com/v2.7/plugins/page.php?$domain=nettruyenx.com
 
-! HENTAI VN
-hentaivn.tv##.main > p
-hentaivn.tv##.main > .qx_main
-hentaivn.tv##.container > p
-hentaivn.tv##div.bar-title-episode:nth-of-type(2)
-hentaivn.tv##.right_ps > p
-hentaivn.red##.main > p
-hentaivn.red##.main > .qx_main
-hentaivn.red##.container > p
-hentaivn.red##div.bar-title-episode:nth-of-type(2)
-hentaivn.red##.right_ps > p
-hentaivn.autos##.main > p
-hentaivn.autos##.main > .qx_main
-hentaivn.autos##.container > p
-hentaivn.autos##div.bar-title-episode:nth-of-type(2)
-hentaivn.autos##.right_ps > p
-
 ! POPS
 ||vnw-img-cdn.popsww.com/api/v2/containers/file2/cms_thumbnails/2376x160$domain=pops.vn
 ||vnw-img-cdn.popsww.com/api/v2/containers/file2/cms_thumbnails/1376x195$domain=pops.vn
@@ -230,23 +213,6 @@ animehay.city##.watch-history .item:style(border: none !important)
 animehay.city##.watch-history .item a > div:last-child:style(border: 0.5px solid rgba(0,0,0,0) !important; border-radius: 0 7.5px 7.5px 0 !important; background-color: rgba(64,64,64,0.5) !important; height: 38px !important)
 animehay.city##.watch-history .item a > div:first-child:style(border: none !important; border-radius: 7.5px 0 0 7.5px!important; background-color: rgba(64,64,64,0.5) !important; width: 60px !important)
 animehay.city##.watch-history .item a img:style(width: 60px !important)
-
-! HH CHINA
-hhchina.tv##.flex-space-auto.flex.bg-black.margin-10-0
-hhchina.tv##.bg-black.margin-10-0.fw-700.ah-frame-bg
-hhchina.tv##.bind_movie.ah-frame-bg
-hhchina.tv##.ah-frame-bg.desc
-hhchina.tv##.ah_footer
-hhchina.tv##.row > .flex
-hhchina.tv##a.flex-hozi-center.flex.fs-15.fw-500.button-default.fs-35.padding-5-15:nth-of-type(4)
-hhchina.tv##a.flex-hozi-center.flex.fs-15.fw-500.button-default.fs-35.padding-5-15:nth-of-type(3)
-hhchina.tv##a.flex-hozi-center.flex.fs-15.fw-500.button-default.fs-35.padding-5-15:nth-of-type(2)
-hhchina.tv##div.ah-frame-bg:nth-of-type(1)
-hhchina.tv##div.ah-frame-bg:nth-of-type(5)
-hhchina.tv##div.ah-frame-bg:nth-of-type(7)
-hhchina.tv##div.ah-frame-bg:nth-of-type(9)
-hhchina.tv##div.ah-frame-bg:nth-of-type(13)
-hhchina.tv##div.ah_content:nth-of-type(5)
 
 ! MOT CHILL (Block)
 motchillw.net##.btn-contact
