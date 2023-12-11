@@ -249,23 +249,74 @@ hhchina.tv##div.ah-frame-bg:nth-of-type(9)
 hhchina.tv##div.ah-frame-bg:nth-of-type(13)
 hhchina.tv##div.ah_content:nth-of-type(5)
 
-! MOT CHILL
-motchillw.net##h4
-motchillw.net##.right.actions-user
+! MOT CHILL (Block)
 motchillw.net##.btn-contact
-motchillw.net##.suggest-dns >
-motchillw.net##.tags
-motchillw.net##.film-note.left-content-player
 motchillw.net##.caption
+motchillw.net##.fb_iframe_widget.fb-save
+motchillw.net##.film-note.left-content-player
+motchillw.net##.film-note
 motchillw.net##.short-description
-motchillw.net##.text-center.tip-change-server.film-note:style(background-color:rgba(0,0,0,0) !important)
+motchillw.net##.suggest-dns > p
+motchillw.net##.tags
 motchillw.net##.text-center.tip-change-server.film-note > span
-motchillw.net##[href="javascript:void(0)"]
+motchillw.net##h4
 motchillw.net##[href="javascript:hide_catfish();"]
-motchillw.net###mp-preload-popup-overlay
 motchillw.net###footer
 motchillw.net###tabs-facebook
-||www.facebook.com/v16.0/plugins/comments.php?$domain=motchillzz.co
+||www.facebook.com/v16.0/plugins/comments.php?$domain=motchillw.net
+||www.facebook.com/v16.0/plugins/like.php?$domain=motchillw.net
+! MOT CHILL (Style)
+! Đầu trang
+motchillw.net###header > .container:style(border: none !important; background-color: rgba(72,72,72) !important; height: 80px !important; margin-top: -10px !important)
+motchillw.net###header, .main-menu:style(border: none !important; background-color: rgba(0,0,0) !important)
+motchillw.net##.main-menu > .container:style(border: none !important; background-color: rgba(72,72,72) !important)
+motchillw.net##.logo.left:style(margin-left: 10px !important)
+motchillw.net##.relative.search-container:style(margin-top: 10px !important; margin-left: 70px !important; background-color: rgba(72,72,72) !important)
+motchillw.net###form_search:style(border-radius: 7.5px important; backround-color: rgba(72,72,72) !important)
+motchillw.net###keyword:style(border-radius: 5px !important; background-color: rgba(72,72,72) !important)
+motchillw.net##.fa-search.fa:style(font-size: 16px !important; margin-right: 4px !important; margin-top: 2px !important)
+motchillw.net##.right.actions-user:style(margin-top: 12px !important; margin-right: 10px !important)
+! Nền trang
+motchillw.net##.main-content > .container:style(border: none !important; background-color: rgba(36,36,36) !important; margin-top: -20px !important)
+! Kệ Phim hot
+motchillw.net##.tophot:style(border: none !important; margin-left: 7px !important; height: 40px !important)
+motchillw.net##.film-hot.list-films > .title-box:style(margin-top: 10px !important; height: 40px !important)
+motchillw.net##.fa-angle-left.fa:style(margin-left: 7.5px !important; color: (255,255,255,0.5) !important; font-size: 48px !important)
+motchillw.net##.fa-angle-right.fa:style(color: (255,255,255,0.5) !important; font-size: 48px !important)
+motchillw.net##.owl-prev, .owl-next:style(background-color: rgba(0,0,0,0.25) !important; height: 54px !important)
+motchillw.net##.owl-wrapper:style(margin-left: 3px !important)
+motchillw.net##.absolute.text:style(background-color: rgba(0,0,0,0.5) !important; height: 48px !important; line-height: 14px !important)
+! Kệ phim chung (bên trái)
+motchillw.net##div.film-new.list-films > .title-box:style(border: none !important; height: 40px !important)
+motchillw.net##.active.tab:style(border: none !important; margin-left: -5px !important; height: 40px !important)
+motchillw.net##.more-icon-btn.list-films:style(border: none !important; margin-top: -10px !important)
+motchillw.net##.left-content:style(margin-left: 15px !important)
+motchillw.net##.label:style(border: none !important; border-radius: 0px !important; background-color: rgba(197,133,96,0.75) !important; margin-top: -5px !important; box-shadow: none !important)
+motchillw.net##li.item > .name:style(background-color: rgba(0,0,0,0.25) !important; height: 48px !important; line-height: 14px !important)
+! Kệ phim chung (bên phải)
+motchillw.net##.right-content:style(margin-left: -15px !important; margin-top: 22px !important; width: 30% !important)
+motchillw.net##div.block.trailer > .list-film, .block.most-view > .list-film:style(width: 270px !important)
+motchillw.net##.absolute.number-rank:style(background-color: rgba(197,133,96,0.75) !important)
+motchillw.net##.title > .name:style(margin-top: 5px !important)
+! Lọc phim
+motchillw.net##.form-filter:style(margin-left: 15px !important; height: 35px !important)
+! Thông tin phim
+motchillw.net##.two-button.buttons:style(background-color: rgba(0,0,0,0.25) !important; height: 58px !important)
+motchillw.net##.text .title:style(margin-top: -5px !important)
+motchillw.net##.real-name:style(margin-top: 0px !important; margin-bottom: -12px !important; height: 30px !important)
+motchillw.net##.btn-groups:style(margin-top: 10px !important; height: 57px !important)
+motchillw.net##.box-rating:style(margin-top: -30px !important; margin-right: auto !important; margin-left: auto !important)
+motchillw.net##.tabs-content:style(margin-top: -20px !important)
+! Xem phim
+motchillw.net##.div-control:style(margin-top: 20px !important; margin-left: 15px !important; margin-right: 15px !important; width: 97% !important)
+motchillw.net##.server-episode-block:style(margin-left: 15px !important; margin-right: 15px !important)
+motchillw.net##.fa-film.fa:style(margin: 0px 5px 0 0 !important)
+motchillw.net##.episodes:style(margin-left: 15px !important; margin-right: 15px !important)
+motchillw.net##.details:style(margin-left: 15px !important; margin-right: 15px !important)
+motchillw.net##.fa-star-o.fa:style(margin-left: 15px !important; margin-right: 0px !important)
+! Font
+motchillw.net##.text .title:style(font-family: "UTB Bebas Title", 'UTMCafetaRegular' !important)
+motchillw.net##*:not(.fa, .text .title):style(font-family: "SF Pro Display", sans-serif !important; font-weight: normal !important)
 
 ! MOT PHIM
 motphim.uk##div.btn-groups
