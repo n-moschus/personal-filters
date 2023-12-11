@@ -1,5 +1,5 @@
 ! Title: Personal filters
-! Version: 1.1.5
+! Version: 1.1.6
 ! Description: Block some elements and advertise on some websites
 ! Homepage: https://github.com/n-moschus/personal-filters/blob/main/personal-filters.txt
 
@@ -288,19 +288,6 @@ motchillw.net##.two-button.buttons:style(background-color: rgba(0,0,0,0.25) !imp
 ! Font
 motchillw.net##.text .title:style(font-family: "UTB Bebas Title", 'UTMCafetaRegular' !important)
 motchillw.net##*:not(.fa, .text .title):style(font-family: "SF Pro Display", sans-serif !important; font-weight: normal !important)
-
-! MOT PHIM
-motphim.uk##div.btn-groups
-motphim.uk##div.btn-groups > .play-tags
-motphim.uk##.tags
-motphim.uk##.tab > .play-tags
-motphim.uk##.detail > .play-tags
-motphim.uk##center
-motphim.uk##body > center
-motphim.uk##.sda-catfish.sda-wrapper
-motphim.uk###footer
-motphim.uk##.fb_iframe_widget_fluid_desktop.fb_iframe_widget.fb-comments
-||www.facebook.com/v7.0/plugins/comments.php?$domain=motphim.uk
 
 ! PHIM MOI (Block)
 phimmoiyyy.net##.phimmmoi
