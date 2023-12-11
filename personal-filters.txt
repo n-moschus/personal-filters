@@ -1,5 +1,5 @@
 ! Title: Personal filters
-! Version: 1.1.3
+! Version: 1.1.4
 ! Description: Block some elements and advertise on some websites
 ! Homepage: https://github.com/n-moschus/personal-filters/blob/main/personal-filters.txt
 
@@ -315,3 +315,6 @@ phimmoiyyy.net##div.sbox:nth-of-type(7)
 ! XO SO DAI PHAT
 xosodaiphat.com##svg, .bx_close_btn_red_serverImg.bx_close_btn
 ||img.alygmeame.xyz$domain=xosodaiphat.com
+
+! A2Z APK
+a2zapk.io##.modalpop
