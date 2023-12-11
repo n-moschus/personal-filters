@@ -1,5 +1,5 @@
 ! Title: Personal filters
-! Version: 1.1.4
+! Version: 1.1.5
 ! Description: Block some elements and advertise on some websites
 ! Homepage: https://github.com/n-moschus/personal-filters/blob/main/personal-filters.txt
 
@@ -105,7 +105,7 @@ www.wattpad.com##.btn-primary.on-premium.try-premium
 ! DOC SACH HAY
 docsachhay.net##.fs-17.pb-4.pt-3.text-center.alert-warning
 docsachhay.net##.fs-17.box-notice.text-center
-||docsach24.co/images/server-1/1612271069509.jpg$image
+||docsach24.co/images/server-1/1612271069509.jpg$image,domain=docsachhay.net
 docsachhay.net##.fb_iframe_widget_fluid_desktop.fb_iframe_widget.clearfix.mt-3.mt-lg-1.fb-comments
 ||www.facebook.com/v14.0/plugins/comments.php?$domain=docsachhay.net
 
@@ -159,7 +159,6 @@ animehay.city##div.ah-frame-bg:nth-of-type(12)
 animehay.city##div.ah-frame-bg:nth-of-type(13)
 animehay.city##div.margin-10.flex-ver-center.flex > .bg-blue.fw-700.flex-hozi-center.flex.button-default
 animehay.city##.fw-700.flex-hozi-center.flex.padding-10-20.button-default > .material-icons-round
-
 ! ANIME HAY (Change style)
 ! Tiêu đề
 animehay.city##*:not(h1):style(font-weight: normal !important)
@@ -303,11 +302,29 @@ motphim.uk###footer
 motphim.uk##.fb_iframe_widget_fluid_desktop.fb_iframe_widget.fb-comments
 ||www.facebook.com/v7.0/plugins/comments.php?$domain=motphim.uk
 
-! PHIM MOI
+! PHIM MOI (Block)
 phimmoiyyy.net##.phimmmoi
+phimmoiyyy.net##.thongbao
 phimmoiyyy.net###comments
-phimmoiyyy.net##div.sbox:nth-of-type(6)
-phimmoiyyy.net##div.sbox:nth-of-type(7)
+! PHIM MOI (Style)
+! Đầu trang
+phimmoiyyy.net###dt_contenedor, header.main:style(background-color: rgba(36,36,36) !important; box-shadow: none !important; border: none !important)
+phimmoiyyy.net##.fix-hidden:style(background-color: rgba(18,18,18) !important; box-shadow: none !important; border: none !important)
+phimmoiyyy.net##header.main .hbox .logo:style(background-color: rgba(18,18,18) !important; box-shadow: none !important; border: none !important)
+phimmoiyyy.net##.headitems:style(margin-right: 12px !important)
+phimmoiyyy.net###searchform:style(background-color: rgba(36,36,36) !important)
+phimmoiyyy.net##.head-main-nav ul.main-header li ul.sub-menu li a:style(background-color: rgba(18,18,18) !important)
+! Nền trang
+phimmoiyyy.net##.module:style(background-color: rgba(24,24,24) !important)
+phimmoiyyy.net##.fcmpbox:style(background-color: rgba(18,18,18) !important; box-shadow: none !important)
+! Nút trạng thái
+phimmoiyyy.net##.trangthaislider:style(background-color: rgba(64,139,234,0.5) !important)
+phimmoiyyy.net##.trangthai:style(background-color: rgba(64,139,234,0.5) !important; margin: 0 0 -5px -5px !important)
+phimmoiyyy.net##.item-label:style(border-radius: 3px !important)
+phimmoiyyy.net##.featu:style(background-color: rgba(255,0,0,0.5) !important)
+! Nút xem thêm và Nút lên
+phimmoiyyy.net##.see-all:style(background-color: rgba(137,137,137) !important; border-radius: 2px !important)
+phimmoiyyy.net###top-page:style(background-color: rgba(0,0,0,0) !important; border-radius: 2px !important)
 
 ! 4HORLOVER
 4horlover.com##.mtsnb-container-outer, .mtsnb-fixed.mtsnb-top.mtsnb-shown.mtsnb
