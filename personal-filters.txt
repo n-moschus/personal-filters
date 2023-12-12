@@ -1,5 +1,5 @@
 ! Title: Personal filters
-! Version: 1.1.9
+! Version: 1.2.0
 ! Description: Block some elements and advertise on some websites
 ! Homepage: https://github.com/n-moschus/personal-filters/blob/main/personal-filters.txt
 
@@ -92,15 +92,36 @@ vn-z.vn##.goog-te-gadget.skiptranslate
 vn-z.vn##.notice-content
 ||upanh.vn-z.vn/images/2023/02/22/Vnzoomvs-Anyviewer300.jpg$image,domain=vn-z.vn
 
-! ICECREAM PDF CANDY
+! XO SO DAI PHAT
+xosodaiphat.com##svg, .bx_close_btn_red_serverImg.bx_close_btn
+||img.alygmeame.xyz$domain=xosodaiphat.com
+
+! ICECREAM PDFCANDY
 pdfcandy.com##.popup__extension.popupcandy
 
 ! APK PURE
 apkpure.com##.chrome-install-pop
 
-! WATTPAD
-www.wattpad.com##.btn-primary.on-premium.try-premium
-||static.wattpad.com/image/$domain=wattpad.com
+! A2Z APK
+a2zapk.io##.modalpop
+
+! NET TRUYEN
+nettruyenx.com##video
+nettruyenx.com##.notify_block
+||www.facebook.com/v2.7/plugins/page.php?$domain=nettruyenx.com
+
+! HENTAIVN (Block)
+hentaivn.autos##.main > p
+hentaivn.autos##.main > .qx_main
+hentaivn.autos##.footer
+hentaivn.autos###qxx
+hentaivn.autos##.buttonhide > [href="javascript:;"]
+
+! TRUYEN TRANH GAY
+truyentranhgay.pro##.jss1043.MuiBox-root-1006
+
+! CB HENTAI
+cbhentai.net##.c-top-sidebar.c-sidebar
 
 ! DOC SACH HAY
 docsachhay.net##.fs-17.pb-4.pt-3.text-center.alert-warning
@@ -109,10 +130,9 @@ docsachhay.net##.fs-17.box-notice.text-center
 docsachhay.net##.fb_iframe_widget_fluid_desktop.fb_iframe_widget.clearfix.mt-3.mt-lg-1.fb-comments
 ||www.facebook.com/v14.0/plugins/comments.php?$domain=docsachhay.net
 
-! NET TRUYEN
-nettruyenx.com##video
-nettruyenx.com##.notify_block
-||www.facebook.com/v2.7/plugins/page.php?$domain=nettruyenx.com
+! WATTPAD
+www.wattpad.com##.btn-primary.on-premium.try-premium
+||static.wattpad.com/image/$domain=wattpad.com
 
 ! POPS
 ||vnw-img-cdn.popsww.com/api/v2/containers/file2/cms_thumbnails/2376x160$domain=pops.vn
@@ -316,23 +336,3 @@ phimmoiyyy.net###top-page:style(background-color: rgba(0,0,0,0) !important; bord
 
 ! 4HORLOVER
 4horlover.com##.mtsnb-container-outer, .mtsnb-fixed.mtsnb-top.mtsnb-shown.mtsnb
-
-! HENTAIVN (Block)
-hentaivn.autos##.main > p
-hentaivn.autos##.main > .qx_main
-hentaivn.autos##.footer
-hentaivn.autos###qxx
-hentaivn.autos##.buttonhide > [href="javascript:;"]
-
-! TRUYEN TRANH GAY
-truyentranhgay.pro##.jss1043.MuiBox-root-1006
-
-! CB HENTAI
-cbhentai.net##.c-top-sidebar.c-sidebar
-
-! XO SO DAI PHAT
-xosodaiphat.com##svg, .bx_close_btn_red_serverImg.bx_close_btn
-||img.alygmeame.xyz$domain=xosodaiphat.com
-
-! A2Z APK
-a2zapk.io##.modalpop
