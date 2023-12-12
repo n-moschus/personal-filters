@@ -1,5 +1,5 @@
 ! Title: Personal filters
-! Version: 1.1.8
+! Version: 1.1.9
 ! Description: Block some elements and advertise on some websites
 ! Homepage: https://github.com/n-moschus/personal-filters/blob/main/personal-filters.txt
 
@@ -316,6 +316,19 @@ phimmoiyyy.net###top-page:style(background-color: rgba(0,0,0,0) !important; bord
 
 ! 4HORLOVER
 4horlover.com##.mtsnb-container-outer, .mtsnb-fixed.mtsnb-top.mtsnb-shown.mtsnb
+
+! HENTAIVN (Block)
+hentaivn.autos##.main > p
+hentaivn.autos##.main > .qx_main
+hentaivn.autos##.footer
+hentaivn.autos###qxx
+hentaivn.autos##.buttonhide > [href="javascript:;"]
+
+! TRUYEN TRANH GAY
+truyentranhgay.pro##.jss1043.MuiBox-root-1006
+
+! CB HENTAI
+cbhentai.net##.c-top-sidebar.c-sidebar
 
 ! XO SO DAI PHAT
 xosodaiphat.com##svg, .bx_close_btn_red_serverImg.bx_close_btn
