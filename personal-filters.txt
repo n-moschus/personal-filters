@@ -1,5 +1,5 @@
 ! Title: Personal filters
-! Version: 1.2.0
+! Version: 1.2.1
 ! Description: Block some elements and advertise on some websites
 ! Homepage: https://github.com/n-moschus/personal-filters/blob/main/personal-filters.txt
 
@@ -94,7 +94,12 @@ vn-z.vn##.notice-content
 
 ! XO SO DAI PHAT
 xosodaiphat.com##svg, .bx_close_btn_red_serverImg.bx_close_btn
-||img.alygmeame.xyz$domain=xosodaiphat.com
+||img.alygmeame.xyz/$image,domain=xosodaiphat.com
+xosodaiphat.com##.block-banner
+xosodaiphat.com##.col-xs-12 > .line-header
+xosodaiphat.com##.qc-content
+xosodaiphat.com###mn_kqngay_12122023 > .banner-600.qc-sticky
+xosodaiphat.com##.col-xs-12 > .banner-600.qc-sticky
 
 ! ICECREAM PDFCANDY
 pdfcandy.com##.popup__extension.popupcandy
@@ -314,6 +319,7 @@ motchillzz.pro##*:not(.fa, .text .title):style(font-family: "SF Pro Display", sa
 phimmoiyyy.net##.phimmmoi
 phimmoiyyy.net##.thongbao
 phimmoiyyy.net###comments
+phimmoiyyy.net###floating_ads_bottom_textcss_x
 ! PHIM MOI (Style)
 ! Đầu trang
 phimmoiyyy.net###dt_contenedor, header.main:style(background-color: rgba(36,36,36) !important; box-shadow: none !important; border: none !important)
