@@ -1,5 +1,5 @@
 ! Title: Personal filters
-! Version: 1.2.3
+! Version: 1.2.4
 ! Description: Block some elements and advertise on some websites
 ! Homepage: https://github.com/n-moschus/personal-filters/blob/main/personal-filters.txt
 
@@ -111,6 +111,9 @@ pdfcandy.com##.popup__extension.popupcandy
 
 ! APK PURE
 apkpure.com##.chrome-install-pop
+
+! APK MIRROR
+www.apkmirror.com##.f-nowrap.d-flex.p-relative.f-100
 
 ! A2Z APK
 a2zapk.io##.modalpop
