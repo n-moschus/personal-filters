@@ -1,5 +1,5 @@
 ! Title: Personal filters
-! Version: 1.2.5
+! Version: 1.2.6
 ! Description: Block some elements and advertise on some websites
 ! Homepage: https://github.com/n-moschus/personal-filters/blob/main/personal-filters.txt
 
@@ -249,12 +249,12 @@ animehay.city##.watch-history .item a img:style(width: 60px !important)
 
 ! MOT CHILL NET (Block)
 motchillw.net##.btn-contact
-motchillw.net##.fb_iframe_widget.fb-save
 motchillw.net##.film-note.left-content-player
 motchillw.net##.film-note
 motchillw.net##.short-description
 motchillw.net##.tags
 motchillw.net##.text-center.tip-change-server.film-note > span
+motchillw.net##.fb_iframe_widget.fb-save
 motchillw.net##h4
 motchillw.net##[href="javascript:hide_catfish();"]
 motchillw.net##div > [href="javascript:void(0)"]
@@ -262,7 +262,7 @@ motchillw.net###mp-preload-popup-overlay
 motchillw.net###footer
 motchillw.net###tabs-facebook
 ||www.facebook.com/v16.0/plugins/comments.php?$domain=motchillw.net
-||www.facebook.com/v16.0/plugins/like.php?$domain=motchillw.net
+||www.facebook.com/v18.0/plugins/like.php?$domain=motchillw.net
 ! MOT CHILL NET (Style)
 ! Đầu trang
 motchillw.net###form_search:style(border-radius: 7.5px important; backround-color: rgba(64,64,64,0.75) !important)
