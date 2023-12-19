@@ -1,5 +1,5 @@
 ! Title: Personal filters
-! Version: 1.2.7
+! Version: 1.2.8
 ! Description: Block some elements and advertise on some websites
 ! Homepage: https://github.com/n-moschus/personal-filters/blob/main/personal-filters.txt
 
@@ -86,6 +86,9 @@ music.youtube.com##tp-yt-paper-dialog.ytmusic-popup-container.style-scope > .ytm
 
 ! Spotify
 open.spotify.com##.GenericModal--afterOpen.GenericModal--animated.encore-dark-theme.GenericModal > div > iframe, .GenericModal__overlay--afterOpen.GenericModal__overlay--animated.GenericModal__overlay
+
+! Terabox
+||s2.teraboxcdn.com/$image,domain=terabox.app
 
 ! Zalo
 chat.zalo.me##.tds-banner-download__content-wrapper
