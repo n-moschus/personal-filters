@@ -1,5 +1,5 @@
 ! Title: Personal filters
-! Version: 1.2.6
+! Version: 1.2.7
 ! Description: Block some elements and advertise on some websites
 ! Homepage: https://github.com/n-moschus/personal-filters/blob/main/personal-filters.txt
 
@@ -76,8 +76,10 @@ youtube.com##ytd-reel-shelf-renderer:has(.ytd-reel-shelf-renderer:has-text(Short
 ! Remove empty spaces in grid
 youtube.com##ytd-rich-grid-row,#contents.ytd-rich-grid-row:style(display: contents !important)
 
-! YouTube: Hide suggest video <1000 views (only English)
+! YouTube: Hide suggest video <1000 views (for English)
 ! www.youtube.com##div#metadata-line > span.ytd-video-meta-block:nth-of-type(1):not(:has-text(/K|M/)):upward(ytd-rich-item-renderer)
+! YouTube: Ẩn đề xuất video có lượt xem thấp hơn 1000 (với giao diện Tiếng Việt)
+! www.youtube.com##div#metadata-line > span.ytd-video-meta-block:nth-of-type(1):not(:has-text(/N|Tr/)):upward(ytd-rich-item-renderer)
 
 ! YouTube Music: Hide Pop-up
 music.youtube.com##tp-yt-paper-dialog.ytmusic-popup-container.style-scope > .ytmusic-popup-container.style-scope
