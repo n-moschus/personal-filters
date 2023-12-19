@@ -3,12 +3,12 @@
 ! Description: Block some elements and advertise on some websites
 ! Homepage: https://github.com/n-moschus/personal-filters/blob/main/personal-filters.txt
 
-! MICROSOFT BING
+! Microsoft Bing
 www.bing.com##.below_sbox
 www.bing.com###idCont .sw_mktsw *:style(color: #000000 !important)
 www.bing.com##.sbox.c_show_box .sb_form, .c_show_box.sbox_cn .sb_form:style(min-height: 1rem !important)
 
-! FSHARE
+! FShare
 ||storage.fshare.vn/images/Fcode01luottai_Download_300x600-min.jpg$image,domain=fshare.vn
 ||storage.fshare.vn/images/Banner_Branding1_T9.2023_trangtaivip_dacquyenVIP300x250.gif$image,domain=fshare.vn
 ||storage.fshare.vn/images/Banner_Branding1_T9.2023_dangnhap_dacquyenVIP300x250.gif$image,domain=fshare.vn
@@ -24,13 +24,13 @@ www.fshare.vn##.quang-cao-ben-trai
 www.fshare.vn##.space-top-left-and-top-right
 www.fshare.vn##.first-paid-popup-cus__close-btn
 
-! TIMFSHARE
+! TimFShare
 ||timfshare.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fimage_2023_11_09T04_29_21_077Z.e59b7dc9.png&w=*0&q=75$image,domain=timfshare.com
 
 ! Facebook: People You May Know on Profile
 www.facebook.com##.x1xmf6yo.xev17xk.xy80clv.xso031l.xm81vs4.x178xt8z.x26u7qi.x1q0q8m5.xu3j5b3.x13fuv20.x9jhf4c.x30kzoy.xgqcy7u.x1lq5wgf.xu1343h.x1nb4dca.x1y71gwh.x1exxf4d, div.xusnbm3.x1w6jkce.x1xmf6yo.xw3qccf.xsgj6o6 > .xh8yej3.x1n2onr6.xl56j7k.xdt5ytf.x3nfvp2.x9f619.x1a2a7pz.x1lku1pv.x87ps6o.x13rtm0m.x1e5q0jg.x3x9cwd.x1o1ewxj.xggy1nq.x1hl2dhg.x16tdsg8.xkhd6sd.x18d9i69.x4uap5.xexx8yu.x1mh8g0r.xat24cr.x11i5rnm.xdj266r.xe8uvvx.x1ypdohk.xav7gou.xaqea5y.x1b1mbwd.x6umtig.xjbqb8w.x1i10hfl > .x1swvt13.x1pi30zi.x1r1pt67.x1qhmfi1.x9f619.xm0m39n.x1qhh985.xcfux6l.x972fbf.x1403ito.x585lrc.x17zwfj4.xi112ho.x1q0g3np.xozqiw3.x6s0dn4.xl56j7k.x2lah0s.x78zum5.x1ja2u2z.x1n2onr6
 
-! FACEBOOK (English)
+! Facebook (English)
 ! Suggested for you
 www.facebook.com##[aria-posinset] div:not(:only-child)>div:only-child>div:only-child>div:first-child[class=""]>div:not([data-0]):has-text(/^Suggested/):upward([aria-posinset])
 ! Unlabelled Suggested posts (with a Follow button)
@@ -48,7 +48,7 @@ www.facebook.com##[aria-posinset] [aria-label="See more"][href="/reel/?s=ifu_see
 ! Marketplace
 facebook.com##[aria-label*="Marketplace"] object > a[href^="/ads/"] > span:not(:empty):upward(11)
 
-! FACEBOOK (Tiếng Việt)
+! Facebook (Tiếng Việt)
 ! Gợi ý cho bạn
 www.facebook.com##[aria-posinset] div:not(:only-child)>div:only-child>div:only-child>div:first-child[class=""]>div:not([data-0]):has-text(/^Gợi ý/):upward([aria-posinset])
 ! Bài đăng được đề xuất không được gắn nhãn (có nút Theo dõi)
@@ -66,26 +66,26 @@ www.facebook.com##[aria-posinset] [aria-label="Xem thêm"][href="/reel/?s=ifu_se
 ! Marketplace
 facebook.com##[aria-label*="Marketplace"] object > a[href^="/ads/"] > span:not(:empty):upward(11)
 
-! GOOGLE BARD: Hide Banner
+! Google Bard: Hide Banner
 bard.google.com##.desktop.experiment.regular.banner
 
-! YOUTUBE: Hide Shorts
+! YouTube: Hide Shorts
 ! Hide shorts section on homepage
 youtube.com##ytd-rich-section-renderer:has(#rich-shelf-header:has-text(Shorts))
 youtube.com##ytd-reel-shelf-renderer:has(.ytd-reel-shelf-renderer:has-text(Shorts))
 ! Remove empty spaces in grid
 youtube.com##ytd-rich-grid-row,#contents.ytd-rich-grid-row:style(display: contents !important)
 
-! YOUTUBE: Hide suggest video <1000 views (only English)
+! YouTube: Hide suggest video <1000 views (only English)
 ! www.youtube.com##div#metadata-line > span.ytd-video-meta-block:nth-of-type(1):not(:has-text(/K|M/)):upward(ytd-rich-item-renderer)
 
-! YOUTUBE MUSIC: Hide Pop-up
+! YouTube Music: Hide Pop-up
 music.youtube.com##tp-yt-paper-dialog.ytmusic-popup-container.style-scope > .ytmusic-popup-container.style-scope
 
-! SPOTIFY
+! Spotify
 open.spotify.com##.GenericModal--afterOpen.GenericModal--animated.encore-dark-theme.GenericModal > div > iframe, .GenericModal__overlay--afterOpen.GenericModal__overlay--animated.GenericModal__overlay
 
-! ZALO
+! Zalo
 chat.zalo.me##.tds-banner-download__content-wrapper
 chat.zalo.me##.snack-body
 
@@ -97,7 +97,7 @@ vn-z.vn##.goog-te-gadget.skiptranslate
 vn-z.vn##.notice-content
 ||upanh.vn-z.vn/images/2023/02/22/Vnzoomvs-Anyviewer300.jpg$image,domain=vn-z.vn
 
-! XO SO DAI PHAT
+! Xổ Số Đại Phát
 xosodaiphat.com##svg, .bx_close_btn_red_serverImg.bx_close_btn
 ||img.alygmeame.xyz/$image,domain=xosodaiphat.com
 xosodaiphat.com##.block-banner
@@ -106,48 +106,48 @@ xosodaiphat.com##.qc-content
 xosodaiphat.com###mn_kqngay_12122023 > .banner-600.qc-sticky
 xosodaiphat.com##.col-xs-12 > .banner-600.qc-sticky
 
-! ICECREAM PDFCANDY
+! Icecream PDF Candy
 pdfcandy.com##.popup__extension.popupcandy
 
-! APK PURE
+! APK Pure
 apkpure.com##.chrome-install-pop
 
-! APK MIRROR
+! APK Mirror
 www.apkmirror.com##.f-nowrap.d-flex.p-relative.f-100
 
 ! A2Z APK
 a2zapk.io##.modalpop
 
-! NET TRUYEN
+! NetTruyen
 nettruyenx.com##video
 nettruyenx.com##.notify_block
 ||www.facebook.com/v2.7/plugins/page.php?$domain=nettruyenx.com
 
-! HENTAIVN (Block)
+! HentaiVN (Block)
 hentaivn.autos##.main > p
 hentaivn.autos##.main > .qx_main
 hentaivn.autos##.footer
 hentaivn.autos###qxx
 hentaivn.autos##.buttonhide > [href="javascript:;"]
 
-! TRUYEN TRANH GAY
+! Truyện Tranh Gay
 truyentranhgay.pro##.jss1043.MuiBox-root-1006
 
-! CB HENTAI
+! CB Hentai
 cbhentai.net##.c-top-sidebar.c-sidebar
 
-! DOC SACH HAY
+! Đọc Sách Hay
 docsachhay.net##.fs-17.pb-4.pt-3.text-center.alert-warning
 docsachhay.net##.fs-17.box-notice.text-center
 ||docsach24.co/images/server-1/1612271069509.jpg$image,domain=docsachhay.net
 docsachhay.net##.fb_iframe_widget_fluid_desktop.fb_iframe_widget.clearfix.mt-3.mt-lg-1.fb-comments
 ||www.facebook.com/v14.0/plugins/comments.php?$domain=docsachhay.net
 
-! WATTPAD
+! Wattpad
 www.wattpad.com##.btn-primary.on-premium.try-premium
 ||static.wattpad.com/image/$domain=wattpad.com
 
-! POPS
+! Pops
 ||vnw-img-cdn.popsww.com/api/v2/containers/file2/cms_thumbnails/2376x160$domain=pops.vn
 ||vnw-img-cdn.popsww.com/api/v2/containers/file2/cms_thumbnails/1376x195$domain=pops.vn
 ||vnw-img-cdn.popsww.com/api/v2/containers/file2/cms_thumbnails/1376_x_195$domain=pops.vn
@@ -160,7 +160,7 @@ pops.vn##div.slider_popsSlider__pD5U2:nth-of-type(12)
 pops.vn##div.slider_popsSlider__pD5U2:nth-of-type(18)
 pops.vn##.wrapper-videojs_video__age-rating-warning__p_6ag
 
-! ANIME HAY (Block)
+! Anime Hay (Block)
 animehay.city##.ah_footer
 animehay.city##.bg-black.margin-10-0.fw-700.ah-frame-bg
 animehay.city##.bg-lochinvar.fw-700.flex-hozi-center.flex.button-default
@@ -175,7 +175,7 @@ animehay.city##div.ah-frame-bg:nth-of-type(12)
 animehay.city##div.ah-frame-bg:nth-of-type(13)
 animehay.city##div.margin-10.flex-ver-center.flex > .bg-blue.fw-700.flex-hozi-center.flex.button-default
 animehay.city##.fw-700.flex-hozi-center.flex.padding-10-20.button-default > .material-icons-round
-! ANIME HAY (Change style)
+! Anime Hay (Change style)
 ! Tiêu đề
 animehay.city##*:not(h1):style(font-weight: normal !important)
 ! Thanh tìm kiếm
@@ -247,7 +247,7 @@ animehay.city##.watch-history .item a > div:last-child:style(border: 0.5px solid
 animehay.city##.watch-history .item a > div:first-child:style(border: none !important; border-radius: 7.5px 0 0 7.5px!important; background-color: rgba(64,64,64,0.5) !important; width: 60px !important)
 animehay.city##.watch-history .item a img:style(width: 60px !important)
 
-! MOT CHILL NET (Block)
+! MotChillw.net (Block)
 motchillw.net##.btn-contact
 motchillw.net##.film-note.left-content-player
 motchillw.net##.film-note
@@ -263,7 +263,7 @@ motchillw.net###footer
 motchillw.net###tabs-facebook
 ||www.facebook.com/v16.0/plugins/comments.php?$domain=motchillw.net
 ||www.facebook.com/v18.0/plugins/like.php?$domain=motchillw.net
-! MOT CHILL NET (Style)
+! MotChillw.net (Style)
 ! Đầu trang
 motchillw.net###form_search:style(border-radius: 7.5px important; backround-color: rgba(64,64,64,0.75) !important)
 motchillw.net###keyword:style(border-radius: 5px !important; background-color: rgba(64,64,64,0.75) !important)
@@ -286,7 +286,7 @@ motchillw.net##.two-button.buttons:style(background-color: rgba(0,0,0,0.25) !imp
 motchillw.net##.text .title:style(font-family: "UTB Bebas Title", 'UTMCafetaRegular' !important)
 motchillw.net##*:not(.fa, .text .title):style(font-family: "SF Pro Display", sans-serif !important; font-weight: normal !important)
 
-! MOT CHILL PRO (Block)
+! MotChillzz.pro (Block)
 motchillzz.pro##.btn-contact
 motchillzz.pro##.fb_iframe_widget.fb-save
 motchillzz.pro##.film-note.left-content-player
@@ -302,7 +302,7 @@ motchillzz.pro###footer
 motchillzz.pro###tabs-facebook
 ||www.facebook.com/v18.0/plugins/comments.php?$domain=motchillzz.pro
 ||www.facebook.com/v18.0/plugins/like.php?$domain=motchillzz.pro
-! MOT CHILL PRO (Style)
+! MotChillzz.pro (Style)
 ! Đầu trang
 motchillzz.pro###form_search:style(border-radius: 7.5px important; backround-color: rgba(64,64,64,0.75) !important)
 motchillzz.pro###keyword:style(border-radius: 5px !important; background-color: rgba(64,64,64,0.75) !important)
@@ -324,12 +324,12 @@ motchillzz.pro##.two-button.buttons:style(background-color: rgba(0,0,0,0.25) !im
 motchillzz.pro##.text .title:style(font-family: "UTB Bebas Title", 'UTMCafetaRegular' !important)
 motchillzz.pro##*:not(.fa, .text .title):style(font-family: "SF Pro Display", sans-serif !important; font-weight: normal !important)
 
-! PHIM MOI (Block)
+! PhimMoiyyy.net (Block)
 phimmoiyyy.net##.phimmmoi
 phimmoiyyy.net##.thongbao
 phimmoiyyy.net###comments
 phimmoiyyy.net###floating_ads_bottom_textcss_x
-! PHIM MOI (Style)
+! PhimMoiyyy.net (Style)
 ! Đầu trang
 phimmoiyyy.net###dt_contenedor, header.main:style(background-color: rgba(36,36,36) !important; box-shadow: none !important; border: none !important)
 phimmoiyyy.net##.fix-hidden:style(background-color: rgba(18,18,18) !important; box-shadow: none !important; border: none !important)
@@ -349,5 +349,5 @@ phimmoiyyy.net##.featu:style(background-color: rgba(255,0,0,0.5) !important)
 phimmoiyyy.net##.see-all:style(background-color: rgba(137,137,137) !important; border-radius: 2px !important)
 phimmoiyyy.net###top-page:style(background-color: rgba(0,0,0,0) !important; border-radius: 2px !important)
 
-! 4HORLOVER
+! 4horlover
 4horlover.com##.mtsnb-container-outer, .mtsnb-fixed.mtsnb-top.mtsnb-shown.mtsnb
