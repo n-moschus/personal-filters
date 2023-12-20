@@ -1,5 +1,5 @@
 ! Title: Font filters
-! Version: 1.2.8
+! Version: 1.2.9
 ! Description: Change the default font on some websites
 ! Homepage: https://github.com/n-moschus/personal-filters/blob/main/font-filters.txt
 
@@ -35,7 +35,7 @@ pinterest.com##*:style(font-family: "SF Pro Display", sans-serif !important)
 twitter.com##*:style(font-family: "SF Pro Display", sans-serif !important)
 
 ! Reddit
-reddit.com##*:not(pre, code):style(font-family: "SF Pro Display", sans-serif !important)
+reddit.com##*:not(pre, code, .AI9MP):style(font-family: "SF Pro Display", sans-serif !important)
 
 ! MediaFire
 mediafire.com##*:style(font-family: "SF Pro Display", sans-serif !important)
