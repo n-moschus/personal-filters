@@ -1,5 +1,5 @@
 ! Title: Font filters
-! Version: 1.3.0
+! Version: 1.3.1
 ! Description: Change the default font on some websites
 ! Homepage: https://github.com/n-moschus/personal-filters/blob/main/font-filters.txt
 
