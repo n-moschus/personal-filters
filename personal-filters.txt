@@ -1,5 +1,5 @@
 ! Title: Personal filters
-! Version: 1.3.0
+! Version: 1.3.1
 ! Description: Block some elements and advertise on some websites
 ! Homepage: https://github.com/n-moschus/personal-filters/blob/main/personal-filters.txt
 
@@ -9,13 +9,6 @@ www.bing.com###idCont .sw_mktsw *:style(color: #000000 !important)
 www.bing.com##.sbox.c_show_box .sb_form, .c_show_box.sbox_cn .sb_form:style(min-height: 1rem !important)
 
 ! FShare
-||storage.fshare.vn/images/Fcode01luottai_Download_300x600-min.jpg$image,domain=fshare.vn
-||storage.fshare.vn/images/Banner_Branding1_T9.2023_trangtaivip_dacquyenVIP300x250.gif$image,domain=fshare.vn
-||storage.fshare.vn/images/Banner_Branding1_T9.2023_dangnhap_dacquyenVIP300x250.gif$image,domain=fshare.vn
-||storage.fshare.vn/images/Goldvip_T82023.gif$image,domain=fshare.vn
-||storage.fshare.vn/images/CTKM_thang11_485x60.gif$image,domain=fshare.vn
-||www.fshare.vn/images/banner/112023/popup_file_manager_600x400.png
-www.fshare.vn##.mdc-toolbar__section--align-start.mdc-toolbar__section > .mdc-toolbar__icon--menu.material-icons.tree-menu-menu.tree-menu
 www.fshare.vn##.popup-vip-cus__back-drop, .popup-vip-cus__visibility.popup-vip-cus
 www.fshare.vn###popup_first_pay_close_btn > .material-icons, .first-paid-popup-cus__close-btn
 www.fshare.vn##.quang-cao-top-manager-file
@@ -23,30 +16,14 @@ www.fshare.vn##.quang-cao-ben-phai
 www.fshare.vn##.quang-cao-ben-trai
 www.fshare.vn##.space-top-left-and-top-right
 www.fshare.vn##.first-paid-popup-cus__close-btn
+||storage.fshare.vn/images/CTKM-$image,domain=fshare.vn
 
 ! TimFShare
-||timfshare.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fimage_2023_11_09T04_29_21_077Z.e59b7dc9.png&w=*0&q=75$image,domain=timfshare.com
+timfshare.com##.mui-1pqlbm3:style(box-shadow:none !important; border-radius: 5px !important)
+||timfshare.com/_next/image?$image,domain=timfshare.com
 
 ! Facebook: People You May Know on Profile
 www.facebook.com##.x1xmf6yo.xev17xk.xy80clv.xso031l.xm81vs4.x178xt8z.x26u7qi.x1q0q8m5.xu3j5b3.x13fuv20.x9jhf4c.x30kzoy.xgqcy7u.x1lq5wgf.xu1343h.x1nb4dca.x1y71gwh.x1exxf4d, div.xusnbm3.x1w6jkce.x1xmf6yo.xw3qccf.xsgj6o6 > .xh8yej3.x1n2onr6.xl56j7k.xdt5ytf.x3nfvp2.x9f619.x1a2a7pz.x1lku1pv.x87ps6o.x13rtm0m.x1e5q0jg.x3x9cwd.x1o1ewxj.xggy1nq.x1hl2dhg.x16tdsg8.xkhd6sd.x18d9i69.x4uap5.xexx8yu.x1mh8g0r.xat24cr.x11i5rnm.xdj266r.xe8uvvx.x1ypdohk.xav7gou.xaqea5y.x1b1mbwd.x6umtig.xjbqb8w.x1i10hfl > .x1swvt13.x1pi30zi.x1r1pt67.x1qhmfi1.x9f619.xm0m39n.x1qhh985.xcfux6l.x972fbf.x1403ito.x585lrc.x17zwfj4.xi112ho.x1q0g3np.xozqiw3.x6s0dn4.xl56j7k.x2lah0s.x78zum5.x1ja2u2z.x1n2onr6
-
-! Facebook (English)
-! Suggested for you
-www.facebook.com##[aria-posinset] div:not(:only-child)>div:only-child>div:only-child>div:first-child[class=""]>div:not([data-0]):has-text(/^Suggested/):upward([aria-posinset])
-! Unlabelled Suggested posts (with a Follow button)
-www.facebook.com##:is([aria-posinset],[aria-describedby]:not([aria-posinset])) :is(h3,h4) [role=button]:has-text(Follow):upward([aria-posinset],[aria-describedby]:not([aria-posinset]))
-! Use only if you actually have these: Suggested posts with the label next to the post date
-www.facebook.com##:is([aria-posinset],[aria-describedby]:not([aria-posinset])):has-text(Suggested for you)
-! People You May Know
-www.facebook.com##[aria-posinset] [aria-label="See all"][href="/friends/"]:upward([aria-posinset])
-! Suggested groups
-www.facebook.com##[aria-posinset] [aria-label="See more groups"][href="/groups/discover/"]:upward([aria-posinset])
-! Suggested pages
-www.facebook.com##:is([aria-posinset],[aria-describedby]:not([aria-posinset])) [aria-label="Suggested pages"]:upward([aria-posinset],[aria-describedby]:not([aria-posinset]))
-! Reels and short videos
-www.facebook.com##[aria-posinset] [aria-label="See more"][href="/reel/?s=ifu_see_more"]:upward([aria-posinset])
-! Marketplace
-facebook.com##[aria-label*="Marketplace"] object > a[href^="/ads/"] > span:not(:empty):upward(11)
 
 ! Facebook (Tiếng Việt)
 ! Gợi ý cho bạn
@@ -60,9 +37,27 @@ www.facebook.com##[aria-posinset] [aria-label="Xem tất cả"][href="/friends/"
 ! Nhóm được gợi ý
 www.facebook.com##[aria-posinset] [aria-label="Xem thêm nhóm"][href="/groups/discover/"]:upward([aria-posinset])
 ! Trang được gợi ý
-www.facebook.com##:is([aria-posinset],[aria-describedby]:not([aria-posinset])) [aria-label="Trang được gợi ý"]:upward([aria-posinset],[aria-describedby]:not([aria-posinset]))
+!www.facebook.com##:is([aria-posinset],[aria-describedby]:not([aria-posinset])) [aria-label="Trang được gợi ý"]:upward([aria-posinset],[aria-describedby]:not([aria-posinset]))
 ! Reels và video ngắn
-www.facebook.com##[aria-posinset] [aria-label="Xem thêm"][href="/reel/?s=ifu_see_more"]:upward([aria-posinset])
+!www.facebook.com##[aria-posinset] [aria-label="Xem thêm"][href="/reel/?s=ifu_see_more"]:upward([aria-posinset])
+! Marketplace
+facebook.com##[aria-label*="Marketplace"] object > a[href^="/ads/"] > span:not(:empty):upward(11)
+
+! Facebook (English)
+! Suggested for you
+www.facebook.com##[aria-posinset] div:not(:only-child)>div:only-child>div:only-child>div:first-child[class=""]>div:not([data-0]):has-text(/^Suggested/):upward([aria-posinset])
+! Unlabelled Suggested posts (with a Follow button)
+www.facebook.com##:is([aria-posinset],[aria-describedby]:not([aria-posinset])) :is(h3,h4) [role=button]:has-text(Follow):upward([aria-posinset],[aria-describedby]:not([aria-posinset]))
+! Use only if you actually have these: Suggested posts with the label next to the post date
+www.facebook.com##:is([aria-posinset],[aria-describedby]:not([aria-posinset])):has-text(Suggested for you)
+! People You May Know
+www.facebook.com##[aria-posinset] [aria-label="See all"][href="/friends/"]:upward([aria-posinset])
+! Suggested groups
+!www.facebook.com##[aria-posinset] [aria-label="See more groups"][href="/groups/discover/"]:upward([aria-posinset])
+! Suggested pages
+!www.facebook.com##:is([aria-posinset],[aria-describedby]:not([aria-posinset])) [aria-label="Suggested pages"]:upward([aria-posinset],[aria-describedby]:not([aria-posinset]))
+! Reels and short videos
+!www.facebook.com##[aria-posinset] [aria-label="See more"][href="/reel/?s=ifu_see_more"]:upward([aria-posinset])
 ! Marketplace
 facebook.com##[aria-label*="Marketplace"] object > a[href^="/ads/"] > span:not(:empty):upward(11)
 
