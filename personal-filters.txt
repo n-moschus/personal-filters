@@ -1,5 +1,5 @@
 ! Title: Personal filters
-! Version: 1.3.1
+! Version: 1.3.2
 ! Description: Block some elements and advertise on some websites
 ! Homepage: https://github.com/n-moschus/personal-filters/blob/main/personal-filters.txt
 
@@ -313,3 +313,4 @@ phimmoiyyy.net###top-page:style(background-color: rgba(0,0,0,0) !important; bord
 
 ! 4horlover
 4horlover.com##.mtsnb-container-outer, .mtsnb-fixed.mtsnb-top.mtsnb-shown.mtsnb
+4horlover.com##.theme1.zjfzmmhlqwrsmwhmrhnmefkrhnqmrdtgsfhranrpnevbmvutvistqnfxf > .zdjyylqxbtvjkdgqxorogwwaehtahheqjkefvdwjddjjrsxcdmxcttqnfxf
