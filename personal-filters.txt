@@ -1,5 +1,5 @@
 ! Title: Personal filters
-! Version: 1.3.2
+! Version: 1.3.3
 ! Description: Block some elements and advertise on some websites
 ! Homepage: https://github.com/n-moschus/personal-filters/blob/main/personal-filters.txt
 
@@ -247,44 +247,44 @@ animehay.city##.watch-history .item a > div:last-child:style(border: 0.5px solid
 animehay.city##.watch-history .item a > div:first-child:style(border: none !important; border-radius: 7.5px 0 0 7.5px!important; background-color: rgba(64,64,64,0.5) !important; width: 60px !important)
 animehay.city##.watch-history .item a img:style(width: 60px !important)
 
-! MotChillt.net (Block)
-motchillt.net##.btn-contact
-motchillt.net##.film-note.left-content-player
-motchillt.net##.film-note
-motchillt.net##.short-description
-motchillt.net##.tags
-motchillt.net##.text-center.tip-change-server.film-note > span
-motchillt.net##.fb_iframe_widget.fb-save
-motchillt.net##h4
-motchillt.net##[href="javascript:hide_catfish();"]
-motchillt.net##div > [href="javascript:void(0)"]
-motchillt.net###mp-preload-popup-overlay
-motchillt.net###footer
-motchillt.net###tabs-facebook
-||www.facebook.com/v16.0/plugins/comments.php?$domain=motchillt.net
-||www.facebook.com/v18.0/plugins/like.php?$domain=motchillt.net
-! motchillt.net (Style)
+! Motchilltvi.net (Block)
+motchilltvi.net##.btn-contact
+motchilltvi.net##.film-note.left-content-player
+motchilltvi.net##.film-note
+motchilltvi.net##.short-description
+motchilltvi.net##.tags
+motchilltvi.net##.text-center.tip-change-server.film-note > span
+motchilltvi.net##.fb_iframe_widget.fb-save
+motchilltvi.net##h4
+motchilltvi.net##[href="javascript:hide_catfish();"]
+motchilltvi.net##div > [href="javascript:void(0)"]
+motchilltvi.net###mp-preload-popup-overlay
+motchilltvi.net###footer
+motchilltvi.net###tabs-facebook
+||www.facebook.com/v16.0/plugins/comments.php?$domain=motchilltvi.net
+||www.facebook.com/v18.0/plugins/like.php?$domain=motchilltvi.net
+! Motchilltvi.net (Style)
 ! Đầu trang
-motchillt.net###form_search:style(border-radius: 7.5px important; backround-color: rgba(64,64,64,0.75) !important)
-motchillt.net###keyword:style(border-radius: 5px !important; background-color: rgba(64,64,64,0.75) !important)
-motchillt.net##.suggest-dns > p:style(color: rgba(51,51,51) !important)
-motchillt.net##.main-menu .menu-item:first-child a:style(border: none !important)
+motchilltvi.net###form_search:style(border-radius: 7.5px important; backround-color: rgba(64,64,64,0.75) !important)
+motchilltvi.net###keyword:style(border-radius: 5px !important; background-color: rgba(64,64,64,0.75) !important)
+motchilltvi.net##.suggest-dns > p:style(color: rgba(51,51,51) !important)
+motchilltvi.net##.main-menu .menu-item:first-child a:style(border: none !important)
 ! Kệ Phim hot
-motchillt.net##.fa-angle-left.fa:style(margin-left: 7.5px !important; color: (255,255,255,0.5) !important; font-size: 48px !important)
-motchillt.net##.fa-angle-right.fa:style(color: (255,255,255,0.5) !important; font-size: 48px !important)
-motchillt.net##.owl-prev, .owl-next:style(background-color: rgba(0,0,0,0.25) !important; height: 54px !important)
-motchillt.net##.owl-wrapper:style(margin-left: 3px !important)
-motchillt.net##.absolute.text:style(background-color: rgba(0,0,0,0.5) !important; height: 48px !important; line-height: 14px !important)
+motchilltvi.net##.fa-angle-left.fa:style(margin-left: 7.5px !important; color: (255,255,255,0.5) !important; font-size: 48px !important)
+motchilltvi.net##.fa-angle-right.fa:style(color: (255,255,255,0.5) !important; font-size: 48px !important)
+motchilltvi.net##.owl-prev, .owl-next:style(background-color: rgba(0,0,0,0.25) !important; height: 54px !important)
+motchilltvi.net##.owl-wrapper:style(margin-left: 3px !important)
+motchilltvi.net##.absolute.text:style(background-color: rgba(0,0,0,0.5) !important; height: 48px !important; line-height: 14px !important)
 ! Kệ phim chung (bên trái)
-motchillt.net##.label:style(border: none !important; border-radius: 0px !important; background-color: rgba(197,133,96,0.75) !important; margin-top: -5px !important; box-shadow: none !important)
-motchillt.net##li.item > .name:style(background-color: rgba(0,0,0,0.25) !important; height: 48px !important; line-height: 14px !important)
+motchilltvi.net##.label:style(border: none !important; border-radius: 0px !important; background-color: rgba(197,133,96,0.75) !important; margin-top: -5px !important; box-shadow: none !important)
+motchilltvi.net##li.item > .name:style(background-color: rgba(0,0,0,0.25) !important; height: 48px !important; line-height: 14px !important)
 ! Kệ phim chung (bên phải)
-motchillt.net##.absolute.number-rank:style(background-color: rgba(197,133,96,0.75) !important)
+motchilltvi.net##.absolute.number-rank:style(background-color: rgba(197,133,96,0.75) !important)
 ! Thông tin phim
-motchillt.net##.two-button.buttons:style(background-color: rgba(0,0,0,0.25) !important; height: 58px !important)
+motchilltvi.net##.two-button.buttons:style(background-color: rgba(0,0,0,0.25) !important; height: 58px !important)
 ! Font
-motchillt.net##.text .title:style(font-family: "UTB Bebas Title", 'UTMCafetaRegular' !important)
-motchillt.net##*:not(.fa, .text .title):style(font-family: "SF Pro Display", sans-serif !important; font-weight: normal !important)
+motchilltvi.net##.text .title:style(font-family: "UTB Bebas Title", 'UTMCafetaRegular' !important)
+motchilltvi.net##*:not(.fa, .text .title):style(font-family: "SF Pro Display", sans-serif !important; font-weight: normal !important)
 
 ! PhimMoiyyy.net (Block)
 phimmoiyyy.net##.phimmmoi
