@@ -1,5 +1,5 @@
 ! Title: Personal filters
-! Version: 1.3.6
+! Version: 1.3.7
 ! Description: Block some elements and advertise on some websites
 ! Homepage: https://github.com/n-moschus/personal-filters/blob/main/personal-filters.txt
 
@@ -155,6 +155,7 @@ www.wattpad.com##.btn-primary.on-premium.try-premium
 ||vnw-img-cdn.popsww.com/api/v2/containers/file2/cms_thumbnails/1029x348$domain=pops.vn
 ||vnw-img-cdn.popsww.com/api/v2/containers/file2/cms_thumbnails/_new__1029x348$domain=pops.vn
 ||vnw-img-cdn.popsww.com/api/v2/containers/file2/cms_thumbnails/web1-0e7e13516f78-1701678841562-haO2IEqL.png?v=*$image,domain=pops.vn
+||vnw-img-cdn.popsww.com/api/v2/containers/file2/cms_thumbnails/wap_$image,domain=pops.vn
 pops.vn##div.slider_popsSlider__pD5U2:nth-of-type(8)
 pops.vn##div.slider_popsSlider__pD5U2:nth-of-type(11)
 pops.vn##div.slider_popsSlider__pD5U2:nth-of-type(12)
